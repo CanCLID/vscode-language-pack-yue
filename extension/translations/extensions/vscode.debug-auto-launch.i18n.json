@@ -1,0 +1,31 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Always": "一律",
+      "Auto Attach: Always": "自動附加：一律",
+      "Auto Attach: Disabled": "自動附加：已停用",
+      "Auto Attach: Smart": "自動附加：智能",
+      "Auto Attach: With Flag": "自動附加：有 flag 先",
+      "Auto attach is disabled and not shown in status bar": "自動附加已停用，而且唔會喺狀態列顯示。",
+      "Auto attach to every Node.js process launched in the terminal": "自動附加到終端機啟動嘅每個 Node.js 程序",
+      "Auto attach when running scripts that aren't in a node_modules folder": "執行唔喺 node_modules 資料夾入面嘅指令碼時自動附加",
+      "Automatically attach to node.js processes in debug mode": "自動附加到 debug mode 嘅 node.js 程序",
+      "Debug Auto Attach": "除錯自動附加",
+      "Disabled": "已停用",
+      "Only With Flag": "只限有 flag",
+      "Only auto attach when the `--inspect` flag is given": "只有提供 `--inspect` flag 時先自動附加",
+      "Re-enable auto attach": "重新啟用自動附加",
+      "Smart": "智能",
+      "Temporarily disable auto attach in this session": "暫時停用今次工作階段嘅自動附加",
+      "Toggle Auto Attach": "切換自動附加",
+      "Toggle auto attach in this workspace": "切換呢個工作區嘅自動附加",
+      "Toggle auto attach on this machine": "切換呢部機嘅自動附加"
+    },
+    "package.nls.json": {
+      "description": "Node-debug 擴充功能未啟用時，用於自動附加功能嘅輔助工具。",
+      "displayName": "Node Debug 自動附加",
+      "toggle.auto.attach": "切換自動附加"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "畀 Markdown 提供 snippet 同語法醒目提示。",
+      "displayName": "Markdown 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

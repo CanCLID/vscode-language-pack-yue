@@ -1,0 +1,44 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Copy & Continue to Microsoft": "複製 & 繼續去 Microsoft",
+      "Error validating custom environment setting: {0}": "驗證自訂環境設定嗰陣出錯：{0}",
+      "Having trouble logging in? Would you like to try a different way? ({0})": "登入有問題？要唔要試第二種方法？（{0}）",
+      "Microsoft Account configuration has been changed.": "Microsoft Account 設定改咗。",
+      "Microsoft Authentication": "Microsoft 驗證",
+      "Microsoft Sovereign Cloud Authentication": "Microsoft 主權雲端驗證",
+      "No": "唔係",
+      "Open [{0}]({0}) in a new tab and paste your one-time code: {1}/The [{0}]({0}) will be a url and the {1} will be a code, e.g. 123456{Locked=\"[{0}]({0})\"}": "喺新分頁開啟 [{0}]({0})，再貼上一次性代碼：{1}",
+      "Open settings": "開啟設定",
+      "Reload": "重新載入",
+      "Signing in to Microsoft...": "登入緊 Microsoft…",
+      "The environment `{0}` is not a valid environment.": "環境 `{0}` 唔係有效嘅環境。",
+      "To finish authenticating, navigate to Microsoft and paste in the above one-time code.": "要完成驗證，請去 Microsoft，再貼上上面嘅一次性代碼。",
+      "Yes": "係",
+      "You have not yet finished authorizing this extension to use your Microsoft Account. Would you like to try a different way? ({0})": "你仲未授權呢個擴充功能使用你嘅 Microsoft 帳戶。要唔要試第二種方法？（{0}）",
+      "You must also specify a custom environment in order to use the custom environment auth provider.": "要使用自訂環境驗證提供者，就一定要同時指定自訂環境。",
+      "Your Code: {0}/The {0} will be a code, e.g. 123-456": "你嘅代碼：{0}"
+    },
+    "package.nls.json": {
+      "description": "Microsoft 驗證提供者",
+      "displayName": "Microsoft 帳戶",
+      "microsoft-authentication.implementation.description": "用 Microsoft 帳戶登入嗰陣要用嘅驗證實作。",
+      "microsoft-authentication.implementation.enumDescriptions.msal": "用 Microsoft Authentication Library（MSAL）登入 Microsoft 帳戶。",
+      "microsoft-authentication.implementation.enumDescriptions.msal-no-broker": "用瀏覽器經 Microsoft Authentication Library（MSAL）登入 Microsoft 帳戶。如果原生 broker 有問題，呢個選項會有用。",
+      "microsoft-sovereign-cloud.customEnvironment.activeDirectoryEndpointUrl.description": "自訂主權雲端嘅 Active Directory 端點。",
+      "microsoft-sovereign-cloud.customEnvironment.activeDirectoryResourceId.description": "自訂主權雲端嘅 Active Directory 資源 ID。",
+      "microsoft-sovereign-cloud.customEnvironment.description": "Microsoft Sovereign Cloud 驗證提供者使用嘅自訂 Sovereign Cloud 設定。要使用呢個功能，除咗呢項設定，亦要將 `#microsoft-sovereign-cloud.environment#` 設為 `custom`。",
+      "microsoft-sovereign-cloud.customEnvironment.managementEndpointUrl.description": "自訂主權雲端嘅管理端點。",
+      "microsoft-sovereign-cloud.customEnvironment.name.description": "自訂主權雲端嘅名。",
+      "microsoft-sovereign-cloud.customEnvironment.portalUrl.description": "自訂主權雲端嘅入口網站 URL。",
+      "microsoft-sovereign-cloud.customEnvironment.resourceManagerEndpointUrl.description": "自訂主權雲端嘅資源管理員端點。",
+      "microsoft-sovereign-cloud.environment.description": "用嚟驗證嘅 Sovereign Cloud。如果揀 `custom`，亦一定要設定 `#microsoft-sovereign-cloud.customEnvironment#`。",
+      "microsoft-sovereign-cloud.environment.enumDescriptions.AzureChinaCloud": "Azure 中國",
+      "microsoft-sovereign-cloud.environment.enumDescriptions.AzureUSGovernment": "Azure 美國政府",
+      "microsoft-sovereign-cloud.environment.enumDescriptions.custom": "自訂 Microsoft 主權雲端",
+      "signIn": "登入",
+      "signOut": "登出"
+    }
+  },
+  "version": "1.0.0"
+}

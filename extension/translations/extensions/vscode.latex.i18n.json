@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "喺 TeX、LaTeX 同 BibTeX 入面提供語法醒目提示同括號配對。",
+      "displayName": "LaTeX 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

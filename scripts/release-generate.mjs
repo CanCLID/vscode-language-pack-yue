@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+import { mkdtemp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import os from 'node:os'; import path from 'node:path'; import process from 'node:process';
+import { buildReleaseArtifacts } from './lib/release-artifacts.mjs';
+const ROOT=path.resolve(import.meta.dirname,'..');
+const json=async p=>JSON.parse(await readFile(path.join(ROOT,...p.split('/')),'utf8'));
+async function inputs(){return {inventory:await json('sources/inventory.en.json'),provenance:await json('sources/provenance.json'),scope:await json('sources/scope.json'),corpus:await json('translations/corpus.yue.json'),candidate:await json('release/candidate.json'),styleGuide:await readFile(path.join(ROOT,'docs/cantonese-style-guide.md'),'utf8'),termbase:await json('terminology/termbase.json')}}
+async function writeAll(root,files){for(const [relative,bytes] of files){const absolute=path.join(root,...relative.split('/'));await mkdir(path.dirname(absolute),{recursive:true});await writeFile(absolute,bytes)}}
+async function check(files){const temp=await mkdtemp(path.join(os.tmpdir(),'vscode-yue-release-'));try{await writeAll(temp,files);for(const [relative,expected] of files){const actual=await readFile(path.join(ROOT,...relative.split('/'))).catch(()=>null);if(!actual||!actual.equals(expected))throw new Error(`[release-reproducibility] ${relative} is missing or stale`)} const expected=new Set([...files].filter(([p])=>p.startsWith('extension/translations/')).map(([p])=>p)); const committed=[];async function walk(dir){for(const e of await readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else committed.push(path.relative(ROOT,p).replaceAll('\\','/'))}}await walk(path.join(ROOT,'extension/translations'));for(const p of committed)if(!expected.has(p))throw new Error(`[release-reproducibility] unexpected derived output ${p}`);}finally{await rm(temp,{recursive:true,force:true})}}
+const artifacts=buildReleaseArtifacts(await inputs()); if(process.argv.includes('--check'))await check(artifacts.files);else await writeAll(ROOT,artifacts.files);
+console.log(`${process.argv.includes('--check')?'Checked':'Generated'} ${artifacts.receipt.unitCount} translations in ${artifacts.receipt.bundleCount} runtime bundles for ${artifacts.manifest.publisher}.${artifacts.manifest.name}.`);

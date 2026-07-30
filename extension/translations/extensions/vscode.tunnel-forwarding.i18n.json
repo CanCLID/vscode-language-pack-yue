@@ -1,0 +1,21 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Continue": "繼續",
+      "Don't show again": "唔好再顯示",
+      "Port Forwarding": "埠轉送",
+      "Private": "非公開",
+      "Public": "公開",
+      "Starting port forwarding system ([Show Log]({0}))/do not change link format [Show Log](command), only change the text \"Show Log\"": "啟動緊埠轉送系統（[顯示記錄]({0})）",
+      "You're about to create a publicly forwarded port. Anyone on the internet will be able to connect to the service listening on port {0}. You should only proceed if this service is secure and non-sensitive.": "你就嚟建立一個公開轉送嘅埠。互聯網上任何人都可以連線到監聽緊 {0} 號埠嘅服務。只可以喺呢個服務安全而且唔涉及敏感資料嘅情況下繼續。"
+    },
+    "package.nls.json": {
+      "category": "埠轉送",
+      "command.restart": "重新啟動轉送系統",
+      "command.showLog": "顯示記錄",
+      "description": "容許轉送本機 port，等佢可以經互聯網存取。",
+      "displayName": "本機隧道埠轉送"
+    }
+  },
+  "version": "1.0.0"
+}

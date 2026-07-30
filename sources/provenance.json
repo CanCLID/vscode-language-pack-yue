@@ -1,0 +1,3745 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "sourceLocale": "en",
+    "repository": "https://github.com/microsoft/vscode.git",
+    "tag": "1.129.1",
+    "commit": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+    "approvedUpstreamPaths": [
+      ".nvmrc",
+      "8a7abeba6e/resources/app/extensions/bat/package.json",
+      "8a7abeba6e/resources/app/extensions/bat/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/clojure/package.json",
+      "8a7abeba6e/resources/app/extensions/clojure/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/coffeescript/package.json",
+      "8a7abeba6e/resources/app/extensions/coffeescript/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/configuration-editing/dist/configurationEditingMain.js",
+      "8a7abeba6e/resources/app/extensions/configuration-editing/package.json",
+      "8a7abeba6e/resources/app/extensions/configuration-editing/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/cpp/package.json",
+      "8a7abeba6e/resources/app/extensions/cpp/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/csharp/package.json",
+      "8a7abeba6e/resources/app/extensions/csharp/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js",
+      "8a7abeba6e/resources/app/extensions/css-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/css-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/css/package.json",
+      "8a7abeba6e/resources/app/extensions/css/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/dart/package.json",
+      "8a7abeba6e/resources/app/extensions/dart/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/debug-auto-launch/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/debug-auto-launch/package.json",
+      "8a7abeba6e/resources/app/extensions/debug-auto-launch/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/debug-server-ready/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/debug-server-ready/package.json",
+      "8a7abeba6e/resources/app/extensions/debug-server-ready/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/diff/package.json",
+      "8a7abeba6e/resources/app/extensions/diff/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/docker/package.json",
+      "8a7abeba6e/resources/app/extensions/docker/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/dotenv/package.json",
+      "8a7abeba6e/resources/app/extensions/dotenv/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/emmet/dist/node/emmetNodeMain.js",
+      "8a7abeba6e/resources/app/extensions/emmet/package.json",
+      "8a7abeba6e/resources/app/extensions/emmet/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/extension-editing/dist/extensionEditingMain.js",
+      "8a7abeba6e/resources/app/extensions/extension-editing/package.json",
+      "8a7abeba6e/resources/app/extensions/extension-editing/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/fsharp/package.json",
+      "8a7abeba6e/resources/app/extensions/fsharp/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/git-base/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/git-base/package.json",
+      "8a7abeba6e/resources/app/extensions/git-base/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/git/dist/main.js",
+      "8a7abeba6e/resources/app/extensions/git/package.json",
+      "8a7abeba6e/resources/app/extensions/git/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/github-authentication/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/github-authentication/package.json",
+      "8a7abeba6e/resources/app/extensions/github-authentication/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/github/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/github/package.json",
+      "8a7abeba6e/resources/app/extensions/github/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/go/package.json",
+      "8a7abeba6e/resources/app/extensions/go/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/groovy/package.json",
+      "8a7abeba6e/resources/app/extensions/groovy/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/grunt/dist/main.js",
+      "8a7abeba6e/resources/app/extensions/grunt/package.json",
+      "8a7abeba6e/resources/app/extensions/grunt/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/gulp/dist/main.js",
+      "8a7abeba6e/resources/app/extensions/gulp/package.json",
+      "8a7abeba6e/resources/app/extensions/gulp/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/handlebars/package.json",
+      "8a7abeba6e/resources/app/extensions/handlebars/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/hlsl/package.json",
+      "8a7abeba6e/resources/app/extensions/hlsl/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js",
+      "8a7abeba6e/resources/app/extensions/html-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/html-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/html/package.json",
+      "8a7abeba6e/resources/app/extensions/html/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/ini/package.json",
+      "8a7abeba6e/resources/app/extensions/ini/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/ipynb/dist/ipynbMain.node.js",
+      "8a7abeba6e/resources/app/extensions/ipynb/package.json",
+      "8a7abeba6e/resources/app/extensions/ipynb/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/jake/dist/main.js",
+      "8a7abeba6e/resources/app/extensions/jake/package.json",
+      "8a7abeba6e/resources/app/extensions/jake/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/java/package.json",
+      "8a7abeba6e/resources/app/extensions/java/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/javascript/package.json",
+      "8a7abeba6e/resources/app/extensions/javascript/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js",
+      "8a7abeba6e/resources/app/extensions/json-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/json-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/json/package.json",
+      "8a7abeba6e/resources/app/extensions/json/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/julia/package.json",
+      "8a7abeba6e/resources/app/extensions/julia/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/latex/package.json",
+      "8a7abeba6e/resources/app/extensions/latex/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/less/package.json",
+      "8a7abeba6e/resources/app/extensions/less/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/log/package.json",
+      "8a7abeba6e/resources/app/extensions/log/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/lua/package.json",
+      "8a7abeba6e/resources/app/extensions/lua/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/make/package.json",
+      "8a7abeba6e/resources/app/extensions/make/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/markdown-basics/package.json",
+      "8a7abeba6e/resources/app/extensions/markdown-basics/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/markdown-language-features/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/markdown-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/markdown-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/markdown-math/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/markdown-math/package.json",
+      "8a7abeba6e/resources/app/extensions/markdown-math/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/media-preview/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/media-preview/package.json",
+      "8a7abeba6e/resources/app/extensions/media-preview/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/merge-conflict/dist/mergeConflictMain.js",
+      "8a7abeba6e/resources/app/extensions/merge-conflict/package.json",
+      "8a7abeba6e/resources/app/extensions/merge-conflict/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/package.json",
+      "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/microsoft-authentication/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/microsoft-authentication/package.json",
+      "8a7abeba6e/resources/app/extensions/microsoft-authentication/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug-companion/out/extension.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug-companion/package.json",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/package.json",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/extension.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js",
+      "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/package.json",
+      "8a7abeba6e/resources/app/extensions/notebook-renderers/package.json",
+      "8a7abeba6e/resources/app/extensions/notebook-renderers/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/npm/dist/npmMain.js",
+      "8a7abeba6e/resources/app/extensions/npm/package.json",
+      "8a7abeba6e/resources/app/extensions/npm/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/objective-c/package.json",
+      "8a7abeba6e/resources/app/extensions/objective-c/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/perl/package.json",
+      "8a7abeba6e/resources/app/extensions/perl/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/php-language-features/dist/phpMain.js",
+      "8a7abeba6e/resources/app/extensions/php-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/php-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/php/package.json",
+      "8a7abeba6e/resources/app/extensions/php/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/powershell/package.json",
+      "8a7abeba6e/resources/app/extensions/powershell/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/prompt-basics/package.json",
+      "8a7abeba6e/resources/app/extensions/prompt-basics/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/pug/package.json",
+      "8a7abeba6e/resources/app/extensions/pug/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/python/package.json",
+      "8a7abeba6e/resources/app/extensions/python/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/r/package.json",
+      "8a7abeba6e/resources/app/extensions/r/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/razor/package.json",
+      "8a7abeba6e/resources/app/extensions/razor/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/references-view/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/references-view/package.json",
+      "8a7abeba6e/resources/app/extensions/references-view/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/restructuredtext/package.json",
+      "8a7abeba6e/resources/app/extensions/restructuredtext/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/ruby/package.json",
+      "8a7abeba6e/resources/app/extensions/ruby/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/rust/package.json",
+      "8a7abeba6e/resources/app/extensions/rust/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/scss/package.json",
+      "8a7abeba6e/resources/app/extensions/scss/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/search-result/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/search-result/package.json",
+      "8a7abeba6e/resources/app/extensions/search-result/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/shaderlab/package.json",
+      "8a7abeba6e/resources/app/extensions/shaderlab/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/shellscript/package.json",
+      "8a7abeba6e/resources/app/extensions/shellscript/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/simple-browser/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/simple-browser/package.json",
+      "8a7abeba6e/resources/app/extensions/simple-browser/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/sql/package.json",
+      "8a7abeba6e/resources/app/extensions/sql/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/swift/package.json",
+      "8a7abeba6e/resources/app/extensions/swift/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js",
+      "8a7abeba6e/resources/app/extensions/terminal-suggest/package.json",
+      "8a7abeba6e/resources/app/extensions/terminal-suggest/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-abyss/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-abyss/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-defaults/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-defaults/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-kimbie-dark/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-kimbie-dark/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-monokai-dimmed/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-monokai-dimmed/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-monokai/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-monokai/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-quietlight/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-quietlight/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-red/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-red/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-seti/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-seti/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-solarized-dark/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-solarized-dark/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-solarized-light/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-solarized-light/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/theme-tomorrow-night-blue/package.json",
+      "8a7abeba6e/resources/app/extensions/theme-tomorrow-night-blue/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/tunnel-forwarding/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/tunnel-forwarding/package.json",
+      "8a7abeba6e/resources/app/extensions/tunnel-forwarding/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/typescript-basics/package.json",
+      "8a7abeba6e/resources/app/extensions/typescript-basics/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/typescript-language-features/dist/extension.js",
+      "8a7abeba6e/resources/app/extensions/typescript-language-features/package.json",
+      "8a7abeba6e/resources/app/extensions/typescript-language-features/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/vb/package.json",
+      "8a7abeba6e/resources/app/extensions/vb/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/xml/package.json",
+      "8a7abeba6e/resources/app/extensions/xml/package.nls.json",
+      "8a7abeba6e/resources/app/extensions/yaml/package.json",
+      "8a7abeba6e/resources/app/extensions/yaml/package.nls.json",
+      "8a7abeba6e/resources/app/out/nls.metadata.json",
+      "LICENSE.txt",
+      "build/gulpfile.vscode.ts",
+      "build/lib/extensions.ts",
+      "build/lib/i18n.ts",
+      "build/npm/update-localization-extension.ts",
+      "extensions/bat/package.json",
+      "extensions/bat/package.nls.json",
+      "extensions/clojure/package.json",
+      "extensions/clojure/package.nls.json",
+      "extensions/coffeescript/package.json",
+      "extensions/coffeescript/package.nls.json",
+      "extensions/configuration-editing/package.json",
+      "extensions/configuration-editing/package.nls.json",
+      "extensions/cpp/package.json",
+      "extensions/cpp/package.nls.json",
+      "extensions/csharp/package.json",
+      "extensions/csharp/package.nls.json",
+      "extensions/css-language-features/package.json",
+      "extensions/css-language-features/package.nls.json",
+      "extensions/css/package.json",
+      "extensions/css/package.nls.json",
+      "extensions/dart/package.json",
+      "extensions/dart/package.nls.json",
+      "extensions/debug-auto-launch/package.json",
+      "extensions/debug-auto-launch/package.nls.json",
+      "extensions/debug-server-ready/package.json",
+      "extensions/debug-server-ready/package.nls.json",
+      "extensions/diff/package.json",
+      "extensions/diff/package.nls.json",
+      "extensions/docker/package.json",
+      "extensions/docker/package.nls.json",
+      "extensions/dotenv/package.json",
+      "extensions/dotenv/package.nls.json",
+      "extensions/emmet/package.json",
+      "extensions/emmet/package.nls.json",
+      "extensions/extension-editing/package.json",
+      "extensions/extension-editing/package.nls.json",
+      "extensions/fsharp/package.json",
+      "extensions/fsharp/package.nls.json",
+      "extensions/git-base/package.json",
+      "extensions/git-base/package.nls.json",
+      "extensions/git/package.json",
+      "extensions/git/package.nls.json",
+      "extensions/github-authentication/package.json",
+      "extensions/github-authentication/package.nls.json",
+      "extensions/github/package.json",
+      "extensions/github/package.nls.json",
+      "extensions/go/package.json",
+      "extensions/go/package.nls.json",
+      "extensions/groovy/package.json",
+      "extensions/groovy/package.nls.json",
+      "extensions/grunt/package.json",
+      "extensions/grunt/package.nls.json",
+      "extensions/gulp/package.json",
+      "extensions/gulp/package.nls.json",
+      "extensions/handlebars/package.json",
+      "extensions/handlebars/package.nls.json",
+      "extensions/hlsl/package.json",
+      "extensions/hlsl/package.nls.json",
+      "extensions/html-language-features/package.json",
+      "extensions/html-language-features/package.nls.json",
+      "extensions/html/package.json",
+      "extensions/html/package.nls.json",
+      "extensions/ini/package.json",
+      "extensions/ini/package.nls.json",
+      "extensions/ipynb/package.json",
+      "extensions/ipynb/package.nls.json",
+      "extensions/jake/package.json",
+      "extensions/jake/package.nls.json",
+      "extensions/java/package.json",
+      "extensions/java/package.nls.json",
+      "extensions/javascript/package.json",
+      "extensions/javascript/package.nls.json",
+      "extensions/json-language-features/package.json",
+      "extensions/json-language-features/package.nls.json",
+      "extensions/json/package.json",
+      "extensions/json/package.nls.json",
+      "extensions/julia/package.json",
+      "extensions/julia/package.nls.json",
+      "extensions/latex/package.json",
+      "extensions/latex/package.nls.json",
+      "extensions/less/package.json",
+      "extensions/less/package.nls.json",
+      "extensions/log/package.json",
+      "extensions/log/package.nls.json",
+      "extensions/lua/package.json",
+      "extensions/lua/package.nls.json",
+      "extensions/make/package.json",
+      "extensions/make/package.nls.json",
+      "extensions/markdown-basics/package.json",
+      "extensions/markdown-basics/package.nls.json",
+      "extensions/markdown-language-features/package.json",
+      "extensions/markdown-language-features/package.nls.json",
+      "extensions/markdown-math/package.json",
+      "extensions/markdown-math/package.nls.json",
+      "extensions/media-preview/package.json",
+      "extensions/media-preview/package.nls.json",
+      "extensions/merge-conflict/package.json",
+      "extensions/merge-conflict/package.nls.json",
+      "extensions/mermaid-markdown-features/package.json",
+      "extensions/mermaid-markdown-features/package.nls.json",
+      "extensions/microsoft-authentication/package.json",
+      "extensions/microsoft-authentication/package.nls.json",
+      "extensions/notebook-renderers/package.json",
+      "extensions/notebook-renderers/package.nls.json",
+      "extensions/npm/package.json",
+      "extensions/npm/package.nls.json",
+      "extensions/objective-c/package.json",
+      "extensions/objective-c/package.nls.json",
+      "extensions/perl/package.json",
+      "extensions/perl/package.nls.json",
+      "extensions/php-language-features/package.json",
+      "extensions/php-language-features/package.nls.json",
+      "extensions/php/package.json",
+      "extensions/php/package.nls.json",
+      "extensions/powershell/package.json",
+      "extensions/powershell/package.nls.json",
+      "extensions/prompt-basics/package.json",
+      "extensions/prompt-basics/package.nls.json",
+      "extensions/pug/package.json",
+      "extensions/pug/package.nls.json",
+      "extensions/python/package.json",
+      "extensions/python/package.nls.json",
+      "extensions/r/package.json",
+      "extensions/r/package.nls.json",
+      "extensions/razor/package.json",
+      "extensions/razor/package.nls.json",
+      "extensions/references-view/package.json",
+      "extensions/references-view/package.nls.json",
+      "extensions/restructuredtext/package.json",
+      "extensions/restructuredtext/package.nls.json",
+      "extensions/ruby/package.json",
+      "extensions/ruby/package.nls.json",
+      "extensions/rust/package.json",
+      "extensions/rust/package.nls.json",
+      "extensions/scss/package.json",
+      "extensions/scss/package.nls.json",
+      "extensions/search-result/package.json",
+      "extensions/search-result/package.nls.json",
+      "extensions/shaderlab/package.json",
+      "extensions/shaderlab/package.nls.json",
+      "extensions/shellscript/package.json",
+      "extensions/shellscript/package.nls.json",
+      "extensions/simple-browser/package.json",
+      "extensions/simple-browser/package.nls.json",
+      "extensions/sql/package.json",
+      "extensions/sql/package.nls.json",
+      "extensions/swift/package.json",
+      "extensions/swift/package.nls.json",
+      "extensions/terminal-suggest/package.json",
+      "extensions/terminal-suggest/package.nls.json",
+      "extensions/theme-abyss/package.json",
+      "extensions/theme-abyss/package.nls.json",
+      "extensions/theme-defaults/package.json",
+      "extensions/theme-defaults/package.nls.json",
+      "extensions/theme-kimbie-dark/package.json",
+      "extensions/theme-kimbie-dark/package.nls.json",
+      "extensions/theme-monokai-dimmed/package.json",
+      "extensions/theme-monokai-dimmed/package.nls.json",
+      "extensions/theme-monokai/package.json",
+      "extensions/theme-monokai/package.nls.json",
+      "extensions/theme-quietlight/package.json",
+      "extensions/theme-quietlight/package.nls.json",
+      "extensions/theme-red/package.json",
+      "extensions/theme-red/package.nls.json",
+      "extensions/theme-seti/package.json",
+      "extensions/theme-seti/package.nls.json",
+      "extensions/theme-solarized-dark/package.json",
+      "extensions/theme-solarized-dark/package.nls.json",
+      "extensions/theme-solarized-light/package.json",
+      "extensions/theme-solarized-light/package.nls.json",
+      "extensions/theme-tomorrow-night-blue/package.json",
+      "extensions/theme-tomorrow-night-blue/package.nls.json",
+      "extensions/tunnel-forwarding/package.json",
+      "extensions/tunnel-forwarding/package.nls.json",
+      "extensions/typescript-basics/package.json",
+      "extensions/typescript-basics/package.nls.json",
+      "extensions/typescript-language-features/package.json",
+      "extensions/typescript-language-features/package.nls.json",
+      "extensions/vb/package.json",
+      "extensions/vb/package.nls.json",
+      "extensions/xml/package.json",
+      "extensions/xml/package.nls.json",
+      "extensions/yaml/package.json",
+      "extensions/yaml/package.nls.json",
+      "product.json"
+    ],
+    "commitArtifactUrl": "https://update.code.visualstudio.com/commit:8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/win32-x64-archive/stable",
+    "node": "24.18.0",
+    "officialArtifactUrl": "https://update.code.visualstudio.com/1.129.1/win32-x64-archive/stable",
+    "officialReleaseApi": "https://api.github.com/repos/microsoft/vscode/releases/latest",
+    "repositoryCommitUrl": "https://github.com/microsoft/vscode/commit/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+    "retrievalMethod": "verified sparse Git source plus bounded Stable artifact ZIP ranges"
+  },
+  "artifact": {
+    "bytes": 310678641,
+    "coreCompressedBytes": 438070,
+    "coreCompressedEnd": 177094827,
+    "coreCompressedStart": 176656758,
+    "coreCompression": "deflate",
+    "coreEntry": "8a7abeba6e/resources/app/out/nls.metadata.json",
+    "coreInflatedBytes": 2142742,
+    "coreSha256": "972e95e10c9c22130fc2133da57f972a947640cc38a0e5bff537c338ab724c37"
+  },
+  "audit": {
+    "retrievedAt": "2026-07-20T22:11:04.709Z"
+  },
+  "consumedBlobs": [
+    {
+      "bytes": 2142742,
+      "kind": "core-metadata",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/core/nls.metadata.json",
+      "sha256": "972e95e10c9c22130fc2133da57f972a947640cc38a0e5bff537c338ab724c37",
+      "upstreamPath": "8a7abeba6e/resources/app/out/nls.metadata.json"
+    },
+    {
+      "bytes": 772,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/bat/package.json",
+      "sha256": "66ffb8129d72bb99b7a80d030ff364e71c17439dd800a61aa76dcc0cce54d414",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/bat/package.json"
+    },
+    {
+      "bytes": 154,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/bat/package.nls.json",
+      "sha256": "486a4c40938b81af679546ea17003ebfe8aaf84aa002de6fc0ce487589474729",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/bat/package.nls.json"
+    },
+    {
+      "bytes": 812,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/clojure/package.json",
+      "sha256": "55c2cebdaea83c14f4557bedeccc1fe13c56934f3bee19f1527aa6c400b37940",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/clojure/package.json"
+    },
+    {
+      "bytes": 125,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/clojure/package.nls.json",
+      "sha256": "10953398d62011aa099881006c13f28186e189647cdc24eff9f05c8f4847218a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/clojure/package.nls.json"
+    },
+    {
+      "bytes": 1020,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/coffeescript/package.json",
+      "sha256": "121e1b11cfbe47c821efd180e8f094162838166e00d69efd43497464d5917167",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/coffeescript/package.json"
+    },
+    {
+      "bytes": 154,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/coffeescript/package.nls.json",
+      "sha256": "bd24ca758ac1e93e0349d3003e48561d352d06581dc2eb118be8d7ac77efe0dd",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/coffeescript/package.nls.json"
+    },
+    {
+      "bytes": 127786,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/configuration-editing/dist/configurationEditingMain.js",
+      "sha256": "4291cc08ddf310a7a97cfbbabd6c8f5575befb8d6aaeee9761da6806630668a7",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/configuration-editing/dist/configurationEditingMain.js"
+    },
+    {
+      "bytes": 3621,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/configuration-editing/package.json",
+      "sha256": "dcfab9e0ee216af4044a7876c956be1ac1fff69db446be173832fe9a2a6613bd",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/configuration-editing/package.json"
+    },
+    {
+      "bytes": 196,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/configuration-editing/package.nls.json",
+      "sha256": "b41d5173cee75e52f157e8f88ff1cad6abfa3319dcb77ca47ab2559e7bb000fb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/configuration-editing/package.nls.json"
+    },
+    {
+      "bytes": 1735,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/cpp/package.json",
+      "sha256": "3430bfe78dcd6df952522754d91511cd2b8700982d5ee52ba20c185e9a3de13e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/cpp/package.json"
+    },
+    {
+      "bytes": 140,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/cpp/package.nls.json",
+      "sha256": "7dd2bf7e03b472300f6dacb630320087c1bf049967e8c35a6e5f81d3951ce063",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/cpp/package.nls.json"
+    },
+    {
+      "bytes": 1109,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/csharp/package.json",
+      "sha256": "2c3900dc42fe4ac5fcb75519155817ebdfecc82394604038ce13c9d05045d41a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/csharp/package.json"
+    },
+    {
+      "bytes": 134,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/csharp/package.nls.json",
+      "sha256": "8f233eb8ffc89ed71db444ac3094a1e575a4983d52a517763859fdb2e550d210",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/csharp/package.nls.json"
+    },
+    {
+      "bytes": 454482,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/css-language-features/client/dist/node/cssClientMain.js",
+      "sha256": "f891496eeb975ab8473cba50c30850b0615c4509e0981dd069d5477f0750c24a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js"
+    },
+    {
+      "bytes": 17016,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/css-language-features/package.json",
+      "sha256": "c8e0b79937b8faf5905d73543e3780798f6ed0ec2110ba953cb02bc7d84ddbfb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/css-language-features/package.json"
+    },
+    {
+      "bytes": 11120,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/css-language-features/package.nls.json",
+      "sha256": "beddb25e780f4fb18c7d3c85670feb2b1268ee893d79fd580ddd9806bb0e3110",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/css-language-features/package.nls.json"
+    },
+    {
+      "bytes": 740,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/css/package.json",
+      "sha256": "89c6d5ccc0a41361d7e5714ca36671f5262d8f516a4d73cfb9a0d97b7ca3b31b",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/css/package.json"
+    },
+    {
+      "bytes": 133,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/css/package.nls.json",
+      "sha256": "41b7c46e677fc644b51cd3be05b5a63207049aa640afde258bf848f5bb1e53a6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/css/package.nls.json"
+    },
+    {
+      "bytes": 596,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/dart/package.json",
+      "sha256": "f58325879a6eb1e34d8af3f0089c9e8acf7ef05ee7f912909918b7a22b1b97c9",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/dart/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/dart/package.nls.json",
+      "sha256": "42a3e79a6875a6f754ace26a358482318114526f588b7b23c4cfe73278377ff9",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/dart/package.nls.json"
+    },
+    {
+      "bytes": 5813,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-auto-launch/dist/extension.js",
+      "sha256": "3fa6f1b7df54f3a288f293a15fec2a2b01b896c587320b152174f8fd28ae127f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-auto-launch/dist/extension.js"
+    },
+    {
+      "bytes": 649,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-auto-launch/package.json",
+      "sha256": "81f5e17ab62513798ba55a151a23ea238bbea46ab197819ca4e7f7d4e9a58dde",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-auto-launch/package.json"
+    },
+    {
+      "bytes": 172,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-auto-launch/package.nls.json",
+      "sha256": "863210884d287c83e2159f15df5a1b40139a1c5d2a59947219e17a24a0704587",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-auto-launch/package.nls.json"
+    },
+    {
+      "bytes": 6320,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-server-ready/dist/extension.js",
+      "sha256": "b3f2d4838cdead5d9c349f7768db03366e04b356ed0bf244fd8be25e037d2ab9",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-server-ready/dist/extension.js"
+    },
+    {
+      "bytes": 4278,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-server-ready/package.json",
+      "sha256": "948efd8eaaf8ebff6f430454619075df7cd58b7ef900f2bf3a7fcbc0058a26ca",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-server-ready/package.json"
+    },
+    {
+      "bytes": 1578,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/debug-server-ready/package.nls.json",
+      "sha256": "9f4e6d161088fa5189251389026fd8f2a564faaa8843b0cc95c11d65b823a30f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/debug-server-ready/package.nls.json"
+    },
+    {
+      "bytes": 611,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/diff/package.json",
+      "sha256": "6d5741dd61ab3b385d2913f507ae53e13caa15320ad203db4088e1168acc638f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/diff/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/diff/package.nls.json",
+      "sha256": "fefa7fdba3c4c23ac61845337a6e9a9645e574d01d5f2bcdc069d3431c3ee757",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/diff/package.nls.json"
+    },
+    {
+      "bytes": 777,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/docker/package.json",
+      "sha256": "78324ede79c21541d88a9b171895ee915119e2b6e8b40b36386314d99aaf9ede",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/docker/package.json"
+    },
+    {
+      "bytes": 123,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/docker/package.nls.json",
+      "sha256": "a8edcd8f1fa2decdb5db5df04f9eec5065552eac1c13083fbe21206e73550452",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/docker/package.nls.json"
+    },
+    {
+      "bytes": 766,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/dotenv/package.json",
+      "sha256": "75c4e7e31c9606e1d17b70a60fbaa291549d9512d2ec2afaebe68067e0204f07",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/dotenv/package.json"
+    },
+    {
+      "bytes": 123,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/dotenv/package.nls.json",
+      "sha256": "6a9b66b35c1173533554be1074e6f9a61e94d3926dc720a2b0688fa7351ac44b",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/dotenv/package.nls.json"
+    },
+    {
+      "bytes": 232623,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/emmet/dist/node/emmetNodeMain.js",
+      "sha256": "471f5df3a9db80f428f06f9c47f68778ea47be5f86d0f30ca69d5aeb08d97f6f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/emmet/dist/node/emmetNodeMain.js"
+    },
+    {
+      "bytes": 9935,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/emmet/package.json",
+      "sha256": "dba2538e2f900a9fd70b145234c3b7484b7e48d69f326b90e05e418f16b294b0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/emmet/package.json"
+    },
+    {
+      "bytes": 6952,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/emmet/package.nls.json",
+      "sha256": "9b304fcee273f6e569cca73ea957364a6cc8565c5378cc88532f830f31a02328",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/emmet/package.nls.json"
+    },
+    {
+      "bytes": 370784,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/extension-editing/dist/extensionEditingMain.js",
+      "sha256": "3b2bb1d0c855d59b641079e0894b60b44a8434cdfa56d7cdc89abe34fb713e0e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/extension-editing/dist/extensionEditingMain.js"
+    },
+    {
+      "bytes": 1026,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/extension-editing/package.json",
+      "sha256": "d6aebb05c3cc3ba7b7167c56f07ed1b2aeab31ab08044e635dc0643d1ef80d49",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/extension-editing/package.json"
+    },
+    {
+      "bytes": 109,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/extension-editing/package.nls.json",
+      "sha256": "cae7ae6752ab3a63d62f4d5f659d98964e5ac7e30f5f5f53c32e59e35b1bc2c5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/extension-editing/package.nls.json"
+    },
+    {
+      "bytes": 868,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/fsharp/package.json",
+      "sha256": "9beaab63cea4945ba68d34a04e318b6d895e7ecddd9125a9e21282f152b9d0fb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/fsharp/package.json"
+    },
+    {
+      "bytes": 134,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/fsharp/package.nls.json",
+      "sha256": "894bb9f7032d98546cc9a7dea1d265632fb5a1bcaf82cca17e564f6a2f7372c9",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/fsharp/package.nls.json"
+    },
+    {
+      "bytes": 7942,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git-base/dist/extension.js",
+      "sha256": "53f2c47441459b2c4062a87b47ff367110015438d1d8e62a9fead61314578868",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git-base/dist/extension.js"
+    },
+    {
+      "bytes": 1601,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git-base/package.json",
+      "sha256": "40070e223b059fa8f8716592b3da43795f37932f87d3e6a16a6509eecc8a049c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git-base/package.json"
+    },
+    {
+      "bytes": 132,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git-base/package.nls.json",
+      "sha256": "4c4c191eab523be69b51924a4861ee4ddb250a628b79c51acbebd65471627f7c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git-base/package.nls.json"
+    },
+    {
+      "bytes": 756957,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git/dist/main.js",
+      "sha256": "5432a091a856a2a8ec00803a913096eba702d60fea7691fa29dbf717e9361f48",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git/dist/main.js"
+    },
+    {
+      "bytes": 93214,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git/package.json",
+      "sha256": "be3bd2fd6f1308603c53d2cf42d0d43dc2b13c51f9f197d8de95325f5d0c8ea4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git/package.json"
+    },
+    {
+      "bytes": 38133,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/git/package.nls.json",
+      "sha256": "ea2dec2bc9939092685e60dbb0b4d09f84b38859684ddb502780c85264b1cc93",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/git/package.nls.json"
+    },
+    {
+      "bytes": 214004,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github-authentication/dist/extension.js",
+      "sha256": "6f02cc6715d34af3afd9d25e9368e36cfcd699e962999af343288747c8310974",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github-authentication/dist/extension.js"
+    },
+    {
+      "bytes": 1560,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github-authentication/package.json",
+      "sha256": "cbe87ebc0e2d1274c396b669794bec0f1f10c01985f9bb9ae6135f3af7ed97b7",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github-authentication/package.json"
+    },
+    {
+      "bytes": 1194,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github-authentication/package.nls.json",
+      "sha256": "0d392230dbab61cf2253f9eb338fa3b82dda55a8599e96de57aedbd73ec67d17",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github-authentication/package.nls.json"
+    },
+    {
+      "bytes": 301815,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github/dist/extension.js",
+      "sha256": "2881399924d52b7d159aa409d4390370e32237eef529cb88d7426046717432e3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github/dist/extension.js"
+    },
+    {
+      "bytes": 5037,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github/package.json",
+      "sha256": "c5ffc210b28668fdace07eacf5933d3b6cb55d645b697f3e83c201bda3887f19",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github/package.json"
+    },
+    {
+      "bytes": 2018,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/github/package.nls.json",
+      "sha256": "85098467a1634f0e8f2b7e0f909efd05c4ca4f006cb905430213fcde4d612cb2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/github/package.nls.json"
+    },
+    {
+      "bytes": 711,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/go/package.json",
+      "sha256": "8660e6a868df27ff6bb33d3e3b17c059979bc1bd9dcfa854a32b89b7683c8465",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/go/package.json"
+    },
+    {
+      "bytes": 115,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/go/package.nls.json",
+      "sha256": "1528ace31f67a71a6d883c02f41f2414c2d306889dd5f05ab7b7cd64df778eea",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/go/package.nls.json"
+    },
+    {
+      "bytes": 903,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/groovy/package.json",
+      "sha256": "404932c33ec06899163d7e19683ac94ff83adc73caf61fe8d8b1176cdf9ef6d8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/groovy/package.json"
+    },
+    {
+      "bytes": 133,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/groovy/package.nls.json",
+      "sha256": "2c644bba7d5c40ea63dbaafa18fc4db14545bcef93c50d7ddfac5dc4e2f54df3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/groovy/package.nls.json"
+    },
+    {
+      "bytes": 6205,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/grunt/dist/main.js",
+      "sha256": "5ef552c93fb5ca156f480a3aa50cc41105729fb732e8e4938b774f9787868d74",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/grunt/dist/main.js"
+    },
+    {
+      "bytes": 1066,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/grunt/package.json",
+      "sha256": "79e44495ac4d990a80d14b8b68151221b73e948e8923bf1de15308aff823fa9c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/grunt/package.json"
+    },
+    {
+      "bytes": 514,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/grunt/package.nls.json",
+      "sha256": "81ffad03f6f5e5086720feb80b1503ec848b69002d3ad769a76ac61a2101b009",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/grunt/package.nls.json"
+    },
+    {
+      "bytes": 6205,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/gulp/dist/main.js",
+      "sha256": "20aa4a4edbe2c972bbad07cfb16962327403184527dc0ab5601c2cbd8a60dde2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/gulp/dist/main.js"
+    },
+    {
+      "bytes": 915,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/gulp/package.json",
+      "sha256": "4da621e31aa6a746dee84162cd49a904e5b122f01eaecd89736364822549f7a5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/gulp/package.json"
+    },
+    {
+      "bytes": 412,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/gulp/package.nls.json",
+      "sha256": "068eab7670c0462a5becee07ca609f8a9c82c0d2e400f84806bccb4714f4960e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/gulp/package.nls.json"
+    },
+    {
+      "bytes": 895,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/handlebars/package.json",
+      "sha256": "1429a4d12d4a1c25010cc4e64f803a9883246d0b44b04a52d8f3894ab2ac48e3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/handlebars/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/handlebars/package.nls.json",
+      "sha256": "595620c8eb7ce9fd0a63a2f51f467fb5db14420038e7bc410d26aecb0a49a924",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/handlebars/package.nls.json"
+    },
+    {
+      "bytes": 725,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/hlsl/package.json",
+      "sha256": "ff8a7d957c6d22d90571fd5e27c287e7617fb75e80f71904866e17791c8b0826",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/hlsl/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/hlsl/package.nls.json",
+      "sha256": "79f11c1095650c4d74e536dab83bd1ec02a93505dcdd16c9d82d3273c4a19604",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/hlsl/package.nls.json"
+    },
+    {
+      "bytes": 624722,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/html-language-features/client/dist/node/htmlClientMain.js",
+      "sha256": "a6a5fabd31cd98490a9f6fbb575992f9aa78847e0f7f3d014e63ea91b5449efc",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js"
+    },
+    {
+      "bytes": 5333,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/html-language-features/package.json",
+      "sha256": "241e2240a13e35b63320b6c7bfe825cfabda1c8ccc9227fd88c0e63e45d9e6b0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/html-language-features/package.json"
+    },
+    {
+      "bytes": 4262,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/html-language-features/package.nls.json",
+      "sha256": "62ccd316959163e1da718012872b02eefde75ca4017918bd339921e7adaaa3c9",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/html-language-features/package.nls.json"
+    },
+    {
+      "bytes": 1320,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/html/package.json",
+      "sha256": "053502df0e3599d9937f58184dda3784f5d3df2b2bc3fa3c7db7cf25ae2e9299",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/html/package.json"
+    },
+    {
+      "bytes": 127,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/html/package.nls.json",
+      "sha256": "1a79bbae059ffeecdf42cb319db235c49fbca6cdeb7e195792b4a782c4460ff4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/html/package.nls.json"
+    },
+    {
+      "bytes": 1095,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ini/package.json",
+      "sha256": "2618b7826d41b4b81e149ad93b4b0a04f6aa26edba13f77dd0f92e14c715c66c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ini/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ini/package.nls.json",
+      "sha256": "67a2f0f216ff880baa608a9f6a746568004c11af22e5f2ec1735fe7ace19d202",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ini/package.nls.json"
+    },
+    {
+      "bytes": 170243,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ipynb/dist/ipynbMain.node.js",
+      "sha256": "b20533cbfd9ee4aec87b84a27e71ab280bbb6ab033d76c3907e661c94be693c6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ipynb/dist/ipynbMain.node.js"
+    },
+    {
+      "bytes": 2982,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ipynb/package.json",
+      "sha256": "0920e5d362d28e8c9ec468d7410fc713df928d12de88a04feb18ef6f0be9e881",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ipynb/package.json"
+    },
+    {
+      "bytes": 986,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ipynb/package.nls.json",
+      "sha256": "7d1007cfa1c6789014cd27bbcb7f1012796919309d794a9b5672fa0aba99f468",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ipynb/package.nls.json"
+    },
+    {
+      "bytes": 5793,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/jake/dist/main.js",
+      "sha256": "5c974b95eee08b342ef4d131df071bb0b9fb4ead2f0e2b2f3a3f1360310e04b3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/jake/dist/main.js"
+    },
+    {
+      "bytes": 921,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/jake/package.json",
+      "sha256": "96f61ba38c33694a95976f18cdbd0731f7abf547a7628e8884c61657c61ea806",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/jake/package.json"
+    },
+    {
+      "bytes": 414,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/jake/package.nls.json",
+      "sha256": "1b378ded0510fe5ba8b3fd4c521159238fffd874561f25c735e69fa0c51e1504",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/jake/package.nls.json"
+    },
+    {
+      "bytes": 774,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/java/package.json",
+      "sha256": "0a7d7405a22a5cc7587852d8b0139486a2286fa06a1ae53ab00f47677192e7ab",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/java/package.json"
+    },
+    {
+      "bytes": 138,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/java/package.nls.json",
+      "sha256": "5cb01d381f855bf9c346223d3c643dd00c4e49b76c9e6b01c44a86aae2003060",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/java/package.nls.json"
+    },
+    {
+      "bytes": 3057,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/javascript/package.json",
+      "sha256": "46497fcc12aaf67f4b6c5554250061f64b42f11711c2059960083f4e7bfb9f0b",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/javascript/package.json"
+    },
+    {
+      "bytes": 150,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/javascript/package.nls.json",
+      "sha256": "a4efc274a873e67090fe03348bcf6874450f8e6f3189e2133275ce3eac628ef0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/javascript/package.nls.json"
+    },
+    {
+      "bytes": 652351,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/json-language-features/client/dist/node/jsonClientMain.js",
+      "sha256": "4babf0fe285c1ef199821585a6244e86949d5b4abcf0f60ab324eee68cd73ae2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js"
+    },
+    {
+      "bytes": 3509,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/json-language-features/package.json",
+      "sha256": "a3aa8b44eb7125cc4fa43e64c67508ae483d548269d3bd152660242383ba03c7",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/json-language-features/package.json"
+    },
+    {
+      "bytes": 2380,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/json-language-features/package.nls.json",
+      "sha256": "1b592703b5efbc7aeca1cd84dd7712fe78e533bdc7ff7152749c26f1ac6516a3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/json-language-features/package.nls.json"
+    },
+    {
+      "bytes": 1842,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/json/package.json",
+      "sha256": "6df3ed7d55d66db89c2c55ca612367098093a6d207ba743e6e0ea6d2dbadfcda",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/json/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/json/package.nls.json",
+      "sha256": "53c7eb046865106aa09cf501aa2c734fcebc3ae3f31567152c923dfd82a0e108",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/json/package.nls.json"
+    },
+    {
+      "bytes": 1039,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/julia/package.json",
+      "sha256": "372f535f84b1bedb59d5c638c0d35d0837849aa7a947138b42a266d1af59a034",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/julia/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/julia/package.nls.json",
+      "sha256": "c07b9fcae5ef89b86a89e767b4fec780a1b01988a15cc0c2fcce8d7135fea058",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/julia/package.nls.json"
+    },
+    {
+      "bytes": 2015,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/latex/package.json",
+      "sha256": "3a03c9f44d869b0a4f2bb4a6030675accfc2382194e26acc51287c3249fa6f57",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/latex/package.json"
+    },
+    {
+      "bytes": 132,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/latex/package.nls.json",
+      "sha256": "b38c16dabbbe70a34015916c39b0126b733f8ea52bf8e6ee4ab2e14cac0268b5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/latex/package.nls.json"
+    },
+    {
+      "bytes": 857,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/less/package.json",
+      "sha256": "417c62778b90f4493ba2d84cc2485ed6333db5d77d1f4fcf7cf7249270d06ceb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/less/package.json"
+    },
+    {
+      "bytes": 128,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/less/package.nls.json",
+      "sha256": "5a72be506ee7281a5f56ba355311e13401c6fd6f7b62e00f029d5a0eef002daa",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/less/package.nls.json"
+    },
+    {
+      "bytes": 627,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/log/package.json",
+      "sha256": "d48d6ee89872ceaef31c123e9b4fc058f85291d2d62fdcfb730409c437f3b43a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/log/package.json"
+    },
+    {
+      "bytes": 97,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/log/package.nls.json",
+      "sha256": "6a72b3bd7cebabc95dc4d88fc060a122ea4a2afe1683adc2fda1eaab66641fe8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/log/package.nls.json"
+    },
+    {
+      "bytes": 712,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/lua/package.json",
+      "sha256": "5d53744e0728b508f451b1b6505f7908d7ccfd9df6632b6cd0761e5e925b52ac",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/lua/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/lua/package.nls.json",
+      "sha256": "776f9f8da3b7a008e801d6ace0eef01a54e5e7a30c5f54d868fa97b8c2859bde",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/lua/package.nls.json"
+    },
+    {
+      "bytes": 910,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/make/package.json",
+      "sha256": "527bf1e0b1bd20ee5d7b9cb2a57ffc7700033a67f2150dbc5af2a5f0b9daf718",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/make/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/make/package.nls.json",
+      "sha256": "6583d7e7c72667157653b670e6d3de6c05b63bb4bf789cb946b76d6c0793a642",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/make/package.nls.json"
+    },
+    {
+      "bytes": 3027,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-basics/package.json",
+      "sha256": "f5ffdf9a58fe16eccb04c3bc98486da6d2de39649a4c5edb93cf22b0c38d64f5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-basics/package.json"
+    },
+    {
+      "bytes": 114,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-basics/package.nls.json",
+      "sha256": "0acb8cd25798d3e1cf921691ee0a96b75349c4407dd118ccf40e6c7d08545f45",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-basics/package.nls.json"
+    },
+    {
+      "bytes": 1970718,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-language-features/dist/extension.js",
+      "sha256": "be39311a4c0a006e0bfe6a2ce556d4b16c1b2b4e22ba1e74f82f2643e3f90a8d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-language-features/dist/extension.js"
+    },
+    {
+      "bytes": 21530,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-language-features/package.json",
+      "sha256": "673d5a2b9f3e4f19d68fde2480639c9ed19a0704e839fb6177b1ad3af3c88df4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-language-features/package.json"
+    },
+    {
+      "bytes": 15387,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-language-features/package.nls.json",
+      "sha256": "8907d82ec08376549b1d9a681fbe2e23a89d9a3cdf240e68db94f3866f461e6a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-language-features/package.nls.json"
+    },
+    {
+      "bytes": 279550,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-math/dist/extension.js",
+      "sha256": "e7c5fb92c263e1f4a3a93a1411d7c402e18c83165b650e3f19516b82d0730ecf",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-math/dist/extension.js"
+    },
+    {
+      "bytes": 1993,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-math/package.json",
+      "sha256": "623c56e2cde59ca310e059f07929b25a5a1283e09803f37e531ccfa3eb58b474",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-math/package.json"
+    },
+    {
+      "bytes": 363,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/markdown-math/package.nls.json",
+      "sha256": "86fe67d038221e096768397ae33d2d72e5858236f0f23bf2fed0573e5aaa417d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/markdown-math/package.nls.json"
+    },
+    {
+      "bytes": 27930,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/media-preview/dist/extension.js",
+      "sha256": "f17bc04dfc1334e82142aefcbd963e267fb9d0be99a12a9e5bccc988fa8498b4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/media-preview/dist/extension.js"
+    },
+    {
+      "bytes": 2994,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/media-preview/package.json",
+      "sha256": "184415da84d7f3be30e8056450eedac87469f9b184be721f1c7ca159202f9ec8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/media-preview/package.json"
+    },
+    {
+      "bytes": 595,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/media-preview/package.nls.json",
+      "sha256": "9d59c860c8df2b09c45aaff24951c1e076c610dd69ab374a3f3567e33fb6970c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/media-preview/package.nls.json"
+    },
+    {
+      "bytes": 187083,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/merge-conflict/dist/mergeConflictMain.js",
+      "sha256": "0909a3b48144b15a11c83d2b7904f9aac75ca398db9202e4c7fe06a85cadfcfb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/merge-conflict/dist/mergeConflictMain.js"
+    },
+    {
+      "bytes": 3625,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/merge-conflict/package.json",
+      "sha256": "b883f72adfa20729d54415fec5d2e0ce561ff7d774665ca94032f69ca7dc72fc",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/merge-conflict/package.json"
+    },
+    {
+      "bytes": 1285,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/merge-conflict/package.nls.json",
+      "sha256": "6dc6601d4878d077bc7fe6f69915609208c62daee246801d7500750fd34bca14",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/merge-conflict/package.nls.json"
+    },
+    {
+      "bytes": 15030,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/mermaid-markdown-features/dist/extension.js",
+      "sha256": "46adfba64d711a1a8e778506a825a6c212723629e71290de2cf194799895099f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/dist/extension.js"
+    },
+    {
+      "bytes": 5755,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/mermaid-markdown-features/package.json",
+      "sha256": "be2a02b0f45674568a4b623190ec26ceb43c9fbfd3b1dbe6f244729c7f665b9f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/package.json"
+    },
+    {
+      "bytes": 2633,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/mermaid-markdown-features/package.nls.json",
+      "sha256": "6de43e4b39262f5ff02197f168978f3f5d39edd66aba2589e353cba9cf73b331",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/mermaid-markdown-features/package.nls.json"
+    },
+    {
+      "bytes": 480214,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/microsoft-authentication/dist/extension.js",
+      "sha256": "fb94a538e500c9ae7c438c60758f7594776c4e8c48a33b3895d03431dc3df558",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/microsoft-authentication/dist/extension.js"
+    },
+    {
+      "bytes": 3140,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/microsoft-authentication/package.json",
+      "sha256": "e71dd1f2222d59f07b76ba86e4e73221419ecf6a151ef2aeb36565813329abe3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/microsoft-authentication/package.json"
+    },
+    {
+      "bytes": 2608,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/microsoft-authentication/package.nls.json",
+      "sha256": "daae15f28dc6d30c602dc6910838a89f004d3aa203cc51218173272f3ae4bc54",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/microsoft-authentication/package.nls.json"
+    },
+    {
+      "bytes": 100521,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug-companion/out/extension.js",
+      "sha256": "0cd1e7fefe41e736a4b0063142f7db64c64f9ac59aa8dd3556e147e08fc8c15b",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug-companion/out/extension.js"
+    },
+    {
+      "bytes": 1303,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug-companion/package.json",
+      "sha256": "44999350991f42897c4f81ae3ef66e26582f08fb66696119f1aaefdc7d63af77",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug-companion/package.json"
+    },
+    {
+      "bytes": 311173,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug/package.json",
+      "sha256": "040d62ddaa7ca7e27091c76b10d84d7584721f482473bc77ebae771d4261a0cb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/package.json"
+    },
+    {
+      "bytes": 28673,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug/package.nls.json",
+      "sha256": "561e381553c99a3546dd748be27e00b2e20cbfc99b7b5e5c4d5ae8ded1047bf0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/package.nls.json"
+    },
+    {
+      "bytes": 973639,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug/src/extension.js",
+      "sha256": "8b5ab35499164b5685150697c11d669baefc0e8454cbfeebb033eb3e9f9a8f10",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/extension.js"
+    },
+    {
+      "bytes": 34684,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js",
+      "sha256": "600d59b0443b83475b45c8e56529f54b464d5a94fd408f10a59661a8b9618a3f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js"
+    },
+    {
+      "bytes": 114823,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.js-debug/src/vendor/acorn.js",
+      "sha256": "ec08cbca0689bd4fd8d15bc0c9f1b1f7d575e1a2620aba26aa8a8e0b944c9d51",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js"
+    },
+    {
+      "bytes": 17970,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.vscode-js-profile-table/out/extension.js",
+      "sha256": "fdc3a0d2eca9ab2e495aa5a8af4f313ef4304a72ba64fbf13a8180a237be7335",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.js"
+    },
+    {
+      "bytes": 26047,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js",
+      "sha256": "ff2365218e5a99474330fb1ebb064f19ba1ee1198de71250d5da6e46da425087",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js"
+    },
+    {
+      "bytes": 1787,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ms-vscode.vscode-js-profile-table/package.json",
+      "sha256": "81cfb4e5ec2b68bc3b131560fc424029e2cce7e153819a90cf3343ce71104fd4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ms-vscode.vscode-js-profile-table/package.json"
+    },
+    {
+      "bytes": 1225,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/notebook-renderers/package.json",
+      "sha256": "1c2f3dd221a1f8a886869ab978b6b7754a25b2c7991000ff77c9c779cc9d785e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/notebook-renderers/package.json"
+    },
+    {
+      "bytes": 113,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/notebook-renderers/package.nls.json",
+      "sha256": "c217e486149eb3655073a37f4d6c21499923c7f894f2f67a08d3d984020430f5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/notebook-renderers/package.nls.json"
+    },
+    {
+      "bytes": 191795,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/npm/dist/npmMain.js",
+      "sha256": "6532da0072fdf1f6186493b4958fa024e70717da4b58714638f52ff0f9e4da24",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/npm/dist/npmMain.js"
+    },
+    {
+      "bytes": 5870,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/npm/package.json",
+      "sha256": "69d030428a55944e15e2edbf1e6dcdacc781d481453367fc27df3d850ef096d0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/npm/package.json"
+    },
+    {
+      "bytes": 2967,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/npm/package.nls.json",
+      "sha256": "fd8273714479c5ec6247033508d5bdf18bc3c57062aa94f6be859eec24c6d50a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/npm/package.nls.json"
+    },
+    {
+      "bytes": 827,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/objective-c/package.json",
+      "sha256": "2237381cf95eb93926212edaa10cb68ee6f80bd627b2bb919c5d479e6e9682d8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/objective-c/package.json"
+    },
+    {
+      "bytes": 133,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/objective-c/package.nls.json",
+      "sha256": "82711ca65109e70b64f2f8013fd5d6a4d01821cd36d5a5b0c673d32fdfd009d5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/objective-c/package.nls.json"
+    },
+    {
+      "bytes": 1203,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/perl/package.json",
+      "sha256": "c930d66c4c68f8dca9ba8a553cf1111f7b2c124100e3692fdfd2cb521b26aa88",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/perl/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/perl/package.nls.json",
+      "sha256": "02f06d0ee2396497955fd0f08ef05dd35fb702869bbccdf96643075038a6eae2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/perl/package.nls.json"
+    },
+    {
+      "bytes": 223356,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/php-language-features/dist/phpMain.js",
+      "sha256": "29dff6d6d93a6e98dcf073fa93ede959e8f576b3a2c0f6f20a151a533ada0ad1",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/php-language-features/dist/phpMain.js"
+    },
+    {
+      "bytes": 1251,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/php-language-features/package.json",
+      "sha256": "f7fbf0081245bfd6f1ce146f6f86eedd9a73286c96098ef642a7728fe571c038",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/php-language-features/package.json"
+    },
+    {
+      "bytes": 786,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/php-language-features/package.nls.json",
+      "sha256": "e7c095478fb4e804f0b330a0e286f8db931de736381ec2077c44fc11f508febc",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/php-language-features/package.nls.json"
+    },
+    {
+      "bytes": 991,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/php/package.json",
+      "sha256": "89ed11c388f6ed15c8812e83aceebf87e61f32aab639fb18f801bf67f566db01",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/php/package.json"
+    },
+    {
+      "bytes": 118,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/php/package.nls.json",
+      "sha256": "0e5df4f1a0ee5fbd8153b77fe9b660aaf2111fbde55359a8ed92c9cd5f7435d0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/php/package.nls.json"
+    },
+    {
+      "bytes": 807,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/powershell/package.json",
+      "sha256": "2a2129c2b298def75800e96565665391ef3818274497e2b2b92dd615a1c6aa8f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/powershell/package.json"
+    },
+    {
+      "bytes": 150,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/powershell/package.nls.json",
+      "sha256": "83b9850a9ea16908f3c1f76e4fd62ce2f9ef199dceec9f82d348b1c3a1fa8e11",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/powershell/package.nls.json"
+    },
+    {
+      "bytes": 3356,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/prompt-basics/package.json",
+      "sha256": "1805e488b226f5ba7f6f06f881736c2617cc1c095f2f0cbbaddf56a3984d6ceb",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/prompt-basics/package.json"
+    },
+    {
+      "bytes": 115,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/prompt-basics/package.nls.json",
+      "sha256": "71d3363495b75824fbf42bcb2524fef8d83eae78fa2f3f41a223715f14f6acad",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/prompt-basics/package.nls.json"
+    },
+    {
+      "bytes": 759,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/pug/package.json",
+      "sha256": "2338d284300a8c7942ce4b9ffe1bd28588bc6e100a099e146da6433a7790b023",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/pug/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/pug/package.nls.json",
+      "sha256": "3d2a8190a7e02e3e7802d7f9061ca4e42bf46002ff9f579bc212cfdae2ca16b2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/pug/package.nls.json"
+    },
+    {
+      "bytes": 1116,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/python/package.json",
+      "sha256": "f773e6fe5de9ccfb23db98bf57ee99f8a1b721a43df94a6642300c83a44df48d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/python/package.json"
+    },
+    {
+      "bytes": 132,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/python/package.nls.json",
+      "sha256": "adebd62ad764bb2bd0d28853dffbfaf4b04ed6190f16d3d1dec273476d214ef6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/python/package.nls.json"
+    },
+    {
+      "bytes": 673,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/r/package.json",
+      "sha256": "2f967e508f7bb9fe4d3063c1a3e198b2b112d6f989898c616434f65e00fb868f",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/r/package.json"
+    },
+    {
+      "bytes": 113,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/r/package.nls.json",
+      "sha256": "ffdd94ef31bf075d46b1325b5527a1b474643a0e9bc91fd87afe44470472663a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/r/package.nls.json"
+    },
+    {
+      "bytes": 741,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/razor/package.json",
+      "sha256": "ab672fbe405a449d1578c2eb09adaf3187ad2d772229efe01f902004b47818a3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/razor/package.json"
+    },
+    {
+      "bytes": 130,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/razor/package.nls.json",
+      "sha256": "448e5dc8d67bec6206d8a366ba7ac0d6ff599c1c2314e7afcb42418cda3d6945",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/razor/package.nls.json"
+    },
+    {
+      "bytes": 27783,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/references-view/dist/extension.js",
+      "sha256": "2c017114361bacf1dd2c106ea5819ea89491c834a6e9de649edc0a9ae53841c1",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/references-view/dist/extension.js"
+    },
+    {
+      "bytes": 8883,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/references-view/package.json",
+      "sha256": "d04adb5be56a8f87728b7850562399dfe020fce8ad7b631ff6476766ba2f0ac3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/references-view/package.json"
+    },
+    {
+      "bytes": 1596,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/references-view/package.nls.json",
+      "sha256": "cfa52a4a38c9d5150a8855120fc72d96d7c7e8885f06fef118474fc9bce487e8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/references-view/package.nls.json"
+    },
+    {
+      "bytes": 714,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/restructuredtext/package.json",
+      "sha256": "0186942c4b2341803a579caf4ea06483184b75ebdb9378179e6a53476c335d22",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/restructuredtext/package.json"
+    },
+    {
+      "bytes": 122,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/restructuredtext/package.nls.json",
+      "sha256": "0e4c0959f2c6da42e95778aa06a881fbc3b54a337c7f56ceb00ffecabc2a8a17",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/restructuredtext/package.nls.json"
+    },
+    {
+      "bytes": 1126,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ruby/package.json",
+      "sha256": "56f84eacbf994cc977d6fe6a91d6007f58ff7675e00e617c87e9cdd9d204a1a4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ruby/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/ruby/package.nls.json",
+      "sha256": "79f1c3896f7107c39f1a7e19d73904ccb273a8f11af6b72f4d1042304fb70c0e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/ruby/package.nls.json"
+    },
+    {
+      "bytes": 573,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/rust/package.json",
+      "sha256": "611d667bd28e5b95b70922524799572cd2cebf89fff2f0668c7cab37968ef943",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/rust/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/rust/package.nls.json",
+      "sha256": "d70b0b7169c72369f647b6b0d22ddd9db8fb5596ed328598341930e6fabee0b6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/rust/package.nls.json"
+    },
+    {
+      "bytes": 1273,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/scss/package.json",
+      "sha256": "3cc4aabbb9a4bc9870fd246936024b076fbec6484a346c431cc5c8387bf06d24",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/scss/package.json"
+    },
+    {
+      "bytes": 128,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/scss/package.nls.json",
+      "sha256": "fefc2eb35d531f1f1664d2c6c93ce6fecc8ec046c17a6ca9a3cd8f3a6dd20981",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/scss/package.nls.json"
+    },
+    {
+      "bytes": 5241,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/search-result/dist/extension.js",
+      "sha256": "5c4d3422ff6f64f17c859ec1435ea17b22d7c4e02dd6ba27482cdaaccc76a4fd",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/search-result/dist/extension.js"
+    },
+    {
+      "bytes": 827,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/search-result/package.json",
+      "sha256": "a7a4fd20f8a2b9cb5ab12f7e4b4579e67dde2074a7befc657ba69a5e3669793d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/search-result/package.json"
+    },
+    {
+      "bytes": 125,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/search-result/package.nls.json",
+      "sha256": "e1649f32305906924b78cd2dca66eca07c15440fc93c46435aa79a7c3296f01d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/search-result/package.nls.json"
+    },
+    {
+      "bytes": 716,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/shaderlab/package.json",
+      "sha256": "250dd8421fcb3bfc53e5f5ada671fae170a5ac3a12dc789f047d41821018b995",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/shaderlab/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/shaderlab/package.nls.json",
+      "sha256": "c773d0f041b4cdf1837cdd76b0106065edfb587e9871b8041d6012e44072d4c1",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/shaderlab/package.nls.json"
+    },
+    {
+      "bytes": 1610,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/shellscript/package.json",
+      "sha256": "9de568c12f63ec2dc23e9e5c9da657e4cd4cba2bbc1ba447513fa9b72bfb2cc0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/shellscript/package.json"
+    },
+    {
+      "bytes": 135,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/shellscript/package.nls.json",
+      "sha256": "11ac623c0d5f22af9ccc66e1ae938a299134389be3efaeb2c0b45b9a9270e1cd",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/shellscript/package.nls.json"
+    },
+    {
+      "bytes": 7082,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/simple-browser/dist/extension.js",
+      "sha256": "0be7448f3bb54fa32e46ef33ab156b1c5bc182513d1d5712cc7810dd07a342a2",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/simple-browser/dist/extension.js"
+    },
+    {
+      "bytes": 1177,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/simple-browser/package.json",
+      "sha256": "35bb00614cbc4a46410253ad799573b0268b1bcbb3c4fa447f0bbda32c726b17",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/simple-browser/package.json"
+    },
+    {
+      "bytes": 248,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/simple-browser/package.nls.json",
+      "sha256": "9d878f2c4f4349dcac1f2e267536a8a30debb9907a45e11665ee9635b69dda8c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/simple-browser/package.nls.json"
+    },
+    {
+      "bytes": 580,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/sql/package.json",
+      "sha256": "72c9a9c6d9a990e719dfff53c64105b22b6a0795178a26c99affe7c06b1ea660",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/sql/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/sql/package.nls.json",
+      "sha256": "87d752c4ab750a452bf7760ec43cb9914b8e2829dd301199a2b529bbaf28ff3b",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/sql/package.nls.json"
+    },
+    {
+      "bytes": 754,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/swift/package.json",
+      "sha256": "075334e1e4e28543ff436f7d5c7361b8db828651e57f5e771d2c718d980fa2ab",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/swift/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/swift/package.nls.json",
+      "sha256": "3fbc02258a92ba13aef8c49a69c22bf047cf24afe8038fd735015c796b9644a3",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/swift/package.nls.json"
+    },
+    {
+      "bytes": 1517365,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/terminal-suggest/dist/terminalSuggestMain.js",
+      "sha256": "a18c5bc00ddf097b0bf5e1c09bed0c7d696a8084a3f253672114cccb63c6b0d8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js"
+    },
+    {
+      "bytes": 788,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/terminal-suggest/package.json",
+      "sha256": "d1ddc9a8e92b6949157487eed00988f9ba15fb31fa487d78ce05b2080c91e2e4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/terminal-suggest/package.json"
+    },
+    {
+      "bytes": 246,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/terminal-suggest/package.nls.json",
+      "sha256": "f7b5e2ffbd687fb612432e35c1a6c99ec7e84b5b902fae9cf80783cd53281a69",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/terminal-suggest/package.nls.json"
+    },
+    {
+      "bytes": 389,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-abyss/package.json",
+      "sha256": "19e6c781e9b7b9eee085af2b95ef4540db9f13ca29a89ee31f6309667cd1bf95",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-abyss/package.json"
+    },
+    {
+      "bytes": 101,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-abyss/package.nls.json",
+      "sha256": "1a03bee58d47f54ec494b118c331099e82e345d997774a1487863517eeaf9544",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-abyss/package.nls.json"
+    },
+    {
+      "bytes": 1495,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-defaults/package.json",
+      "sha256": "1188ab40303da2345797c509f81c87c3e168249e50009bdec24a1ea28b515bb4",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-defaults/package.json"
+    },
+    {
+      "bytes": 545,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-defaults/package.nls.json",
+      "sha256": "8eba17a4db2c6db687367cec5553292732a1afcac56b472c00b4018a4af69486",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-defaults/package.nls.json"
+    },
+    {
+      "bytes": 407,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-kimbie-dark/package.json",
+      "sha256": "c223e1c42002741d612ed7b42cbf25fc21746d423d63a5f374a8c6e28fb3c873",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-kimbie-dark/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-kimbie-dark/package.nls.json",
+      "sha256": "746926b2352902213e7376d70d594fc26114b5af21058ccb44b511a1be36b815",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-kimbie-dark/package.nls.json"
+    },
+    {
+      "bytes": 416,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-monokai-dimmed/package.json",
+      "sha256": "2852f6f3b61fc96bed4772898afd7d19b3161b93a5d831689caafb5677a81fab",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-monokai-dimmed/package.json"
+    },
+    {
+      "bytes": 128,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-monokai-dimmed/package.nls.json",
+      "sha256": "8e7ed706033cce8a090be5aa74e7956b75e875bd179ac7d886be546bb189ebe6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-monokai-dimmed/package.nls.json"
+    },
+    {
+      "bytes": 395,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-monokai/package.json",
+      "sha256": "62b76501fc7451fb009b240d063bc12f33de2e5ee32cce0195408889d7afbd78",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-monokai/package.json"
+    },
+    {
+      "bytes": 107,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-monokai/package.nls.json",
+      "sha256": "c6bbdadbcf6df75fd0172f0a08a6585f30f9cb4ee181d67e17e36c4ebd9895e6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-monokai/package.nls.json"
+    },
+    {
+      "bytes": 400,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-quietlight/package.json",
+      "sha256": "b1afbced1fd665f0be0dff41fb07e8dcc52401ce79fefccf48bd7250baef58ea",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-quietlight/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-quietlight/package.nls.json",
+      "sha256": "cc9e71c4a7319e0c2544707a60f5d0d0026a3a8eb41a3c6fc0fae3e06c1ad724",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-quietlight/package.nls.json"
+    },
+    {
+      "bytes": 383,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-red/package.json",
+      "sha256": "9c9d4ff4310d601f17caa87e10db29987729df8942d33589a40f1b0e5a563e69",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-red/package.json"
+    },
+    {
+      "bytes": 95,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-red/package.nls.json",
+      "sha256": "037118e4de00d42b85a5c5284ac26e8ff3e60a73cf1b91a48720f54ab201f77d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-red/package.nls.json"
+    },
+    {
+      "bytes": 494,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-seti/package.json",
+      "sha256": "4b2a385edf0c4adab91d44a35074519b7dc81cc5ae9ff4a43a52b279107792b0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-seti/package.json"
+    },
+    {
+      "bytes": 148,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-seti/package.nls.json",
+      "sha256": "04fdf73c702b9ac95394e0fae796333e2fd515ca4690293ddc369dfd629fef47",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-seti/package.nls.json"
+    },
+    {
+      "bytes": 416,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-solarized-dark/package.json",
+      "sha256": "cd52cde5ef26e07be97d4b4d421f478211464c489c0df11c67a191be118444a0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-solarized-dark/package.json"
+    },
+    {
+      "bytes": 128,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-solarized-dark/package.nls.json",
+      "sha256": "59daa310e29272872c629c2a71f83cd0041390d598d4f569f0d33a00f1eb390c",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-solarized-dark/package.nls.json"
+    },
+    {
+      "bytes": 414,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-solarized-light/package.json",
+      "sha256": "565dfd0cba01886978452fb84bfbb959fd269984e58910c45c35f5fdf101133e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-solarized-light/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-solarized-light/package.nls.json",
+      "sha256": "4a72e498d9435363171f74bfa3b51f2f6d46067e0aa830b592eb8dcb6ab566fe",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-solarized-light/package.nls.json"
+    },
+    {
+      "bytes": 431,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-tomorrow-night-blue/package.json",
+      "sha256": "924a37ca984144ff11e2a9df900f2c38fe7d920ac10b48769b0e84988744a2fc",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-tomorrow-night-blue/package.json"
+    },
+    {
+      "bytes": 143,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/theme-tomorrow-night-blue/package.nls.json",
+      "sha256": "492fd92c202663d085cb0dc34f2246fb58ba08df63d6b20204e65a242ea452c6",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/theme-tomorrow-night-blue/package.nls.json"
+    },
+    {
+      "bytes": 7354,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/tunnel-forwarding/dist/extension.js",
+      "sha256": "de9682a8a9dde0cfcbbacf3fdd78576021a9b2c6ab0dbaf0f3c987c1facfa93a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/tunnel-forwarding/dist/extension.js"
+    },
+    {
+      "bytes": 854,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/tunnel-forwarding/package.json",
+      "sha256": "aca49d2eed066ec8ef1ade4ec852a3e18a4702101fa233f63bd68e881244c72a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/tunnel-forwarding/package.json"
+    },
+    {
+      "bytes": 232,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/tunnel-forwarding/package.nls.json",
+      "sha256": "57d0b5442601f09b0d9e962d35a327cc1c81e3795a0f8ebfb8826d5d44acdef8",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/tunnel-forwarding/package.nls.json"
+    },
+    {
+      "bytes": 3517,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/typescript-basics/package.json",
+      "sha256": "6f8e666d1c6d177439a03b0c94c05b101ff1eb97c673cbddfc855e0c1b12430d",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/typescript-basics/package.json"
+    },
+    {
+      "bytes": 150,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/typescript-basics/package.nls.json",
+      "sha256": "0af60a023adc60ad9660b0d5e31ba3632669cb7cdb29b3c480779367960cf861",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/typescript-basics/package.nls.json"
+    },
+    {
+      "bytes": 483255,
+      "kind": "packaged-javascript",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/typescript-language-features/dist/extension.js",
+      "sha256": "93ea6d0b327911d6665d699992669ca0c405eb9402e53224caf67190f286d7a0",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/typescript-language-features/dist/extension.js"
+    },
+    {
+      "bytes": 84897,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/typescript-language-features/package.json",
+      "sha256": "d90a44e432293922260cecc97f0812f726728000bf3a94462f47176935bb0b4e",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/typescript-language-features/package.json"
+    },
+    {
+      "bytes": 46550,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/typescript-language-features/package.nls.json",
+      "sha256": "c0c0c0443d61c69b49cb6ccc33f16f3a2ce01313a17194c440b97b5734250135",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/typescript-language-features/package.nls.json"
+    },
+    {
+      "bytes": 792,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/vb/package.json",
+      "sha256": "181f21488384547e04abf7400367a1ad453089e50a874e9a8ab870b4bc91095a",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/vb/package.json"
+    },
+    {
+      "bytes": 154,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/vb/package.nls.json",
+      "sha256": "b852746f9a81879112067e51cd8033dbb557c428210dc363ab8d23e4af9fee92",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/vb/package.nls.json"
+    },
+    {
+      "bytes": 1518,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/xml/package.json",
+      "sha256": "072e98c906b6fdade3f5cdbae9bea7e1908aaa01daf0c991ec97fe2d6258a410",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/xml/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/xml/package.nls.json",
+      "sha256": "e9468026dbe4861f163f518aa9c8ea88989d28363504df50716bb85c0ce59da5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/xml/package.nls.json"
+    },
+    {
+      "bytes": 1881,
+      "kind": "packaged-manifest",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/yaml/package.json",
+      "sha256": "c25fbf7548ba848d167d114216db2e3d8440dab03f45ac4cdaadfd4ef2641e89",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/yaml/package.json"
+    },
+    {
+      "bytes": 119,
+      "kind": "packaged-catalog",
+      "origin": "stable-artifact",
+      "path": "blobs/artifact/extensions/yaml/package.nls.json",
+      "sha256": "5f0223b23a047dfa02c65f8bc6a05a61909ca70627accfd51c40cf138fa9c5c5",
+      "upstreamPath": "8a7abeba6e/resources/app/extensions/yaml/package.nls.json"
+    },
+    {
+      "bytes": 9,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/.nvmrc",
+      "sha256": "e326b5cc77d5d52db959fb26b64ca8a56c5d01c9ab11e9f7b3d3920cf8a0e72a",
+      "upstreamPath": ".nvmrc"
+    },
+    {
+      "bytes": 1109,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/LICENSE.txt",
+      "sha256": "cce33203a80863c22499035b1cfb6aba5df5f02e4ea2669cf5bc5730c1864236",
+      "upstreamPath": "LICENSE.txt"
+    },
+    {
+      "bytes": 30931,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/build/gulpfile.vscode.ts",
+      "sha256": "47a60f9abde0c84d839b08924116d5043d42f02685b03c14a8367e2fb74e04f2",
+      "upstreamPath": "build/gulpfile.vscode.ts"
+    },
+    {
+      "bytes": 25791,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/build/lib/extensions.ts",
+      "sha256": "40b081eecada1a318377c81251e4a30651922a8b2508214313e24b5ab801cc22",
+      "upstreamPath": "build/lib/extensions.ts"
+    },
+    {
+      "bytes": 29425,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/build/lib/i18n.ts",
+      "sha256": "622bfd6a62832b694408434e57c45bf7744feae934983c244b9d17c61bb7f675",
+      "upstreamPath": "build/lib/i18n.ts"
+    },
+    {
+      "bytes": 4583,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/build/npm/update-localization-extension.ts",
+      "sha256": "f77e49608c974c7546db338880b9f529750eed93e31974c9edb2c114890ba5bc",
+      "upstreamPath": "build/npm/update-localization-extension.ts"
+    },
+    {
+      "bytes": 1129,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/bat/package.json",
+      "sha256": "dcea211482d7be25ccc55f07e6f7895a1ca1e3a56ef6fb2ef1331182940f7e65",
+      "upstreamPath": "extensions/bat/package.json"
+    },
+    {
+      "bytes": 166,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/bat/package.nls.json",
+      "sha256": "fc296a93bab8306476addf701a22db401ed3d7270de01a731db3aa862889ebc8",
+      "upstreamPath": "extensions/bat/package.nls.json"
+    },
+    {
+      "bytes": 1207,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/clojure/package.json",
+      "sha256": "66785d3224e1c24f25212942916a0560c08141602ec7ba6439a934952cbe79a3",
+      "upstreamPath": "extensions/clojure/package.json"
+    },
+    {
+      "bytes": 137,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/clojure/package.nls.json",
+      "sha256": "104fc8f55c923e2d038bc24d89a531c315cab9143c28c041bb9aaab30b12fa5f",
+      "upstreamPath": "extensions/clojure/package.nls.json"
+    },
+    {
+      "bytes": 1493,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/coffeescript/package.json",
+      "sha256": "b791c5c9d95d6166011f7b4ae80550ae3bd7bbd49cabce537de3ff70611d0fb3",
+      "upstreamPath": "extensions/coffeescript/package.json"
+    },
+    {
+      "bytes": 166,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/coffeescript/package.nls.json",
+      "sha256": "2258278eb56d8bd426231d70c0cc72d9da6bf83e550bf517043a637a598e91dd",
+      "upstreamPath": "extensions/coffeescript/package.nls.json"
+    },
+    {
+      "bytes": 5919,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/configuration-editing/package.json",
+      "sha256": "512b174ac80eb5ea074dc037e3087c617751b35fd585baa6aa3fa8c19f606804",
+      "upstreamPath": "extensions/configuration-editing/package.json"
+    },
+    {
+      "bytes": 208,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/configuration-editing/package.nls.json",
+      "sha256": "480711c73ed72278cac69a634eb134330da5247d0eada36f256afed919fe108b",
+      "upstreamPath": "extensions/configuration-editing/package.nls.json"
+    },
+    {
+      "bytes": 3060,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/cpp/package.json",
+      "sha256": "2fcf38844f03f2c598f777b18dfab5a446ac4a1c7fd7bdfb0f21a31d8edd85c0",
+      "upstreamPath": "extensions/cpp/package.json"
+    },
+    {
+      "bytes": 152,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/cpp/package.nls.json",
+      "sha256": "60eb0d8a75ff44bf86e44acb8a0c89f6354b1fdc41045ca3e22d7ee5e6d04336",
+      "upstreamPath": "extensions/cpp/package.nls.json"
+    },
+    {
+      "bytes": 1615,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/csharp/package.json",
+      "sha256": "9c86c6564a055d1677f5df5463737e59b243d72600c6521b0c8178a781be3509",
+      "upstreamPath": "extensions/csharp/package.json"
+    },
+    {
+      "bytes": 146,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/csharp/package.nls.json",
+      "sha256": "fe43409d50c74280777413e246a9ff07edd6d8cc376dcda5c7358a355d335320",
+      "upstreamPath": "extensions/csharp/package.nls.json"
+    },
+    {
+      "bytes": 31493,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/css-language-features/package.json",
+      "sha256": "2ae61f9b2d3393ed5e40f4f1ad31836874f631a9268486ababb7a92f220bd72e",
+      "upstreamPath": "extensions/css-language-features/package.json"
+    },
+    {
+      "bytes": 11560,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/css-language-features/package.nls.json",
+      "sha256": "cd7a019b53267f2198f3745680629bdd48c3610e8591c01e2636a24ab812425f",
+      "upstreamPath": "extensions/css-language-features/package.nls.json"
+    },
+    {
+      "bytes": 1101,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/css/package.json",
+      "sha256": "e5304c97bbdc9ad81897f72c0bd11af94d2bd960ab2ff789ef877fecb3b8a8b6",
+      "upstreamPath": "extensions/css/package.json"
+    },
+    {
+      "bytes": 145,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/css/package.nls.json",
+      "sha256": "7317f70ce6333ad1adab2669cd985c9156216a1de948d887a9f155f1bdfb9468",
+      "upstreamPath": "extensions/css/package.nls.json"
+    },
+    {
+      "bytes": 779,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/dart/package.json",
+      "sha256": "b877969343d519dae45b6ce6c1dd329d386fb1421d9003fff7bfa1c2c234e7bd",
+      "upstreamPath": "extensions/dart/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/dart/package.nls.json",
+      "sha256": "f7fcc39aa5f88895a9c568c156c59bd359ab3cf51df44b379e7be71836a68454",
+      "upstreamPath": "extensions/dart/package.nls.json"
+    },
+    {
+      "bytes": 1086,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/debug-auto-launch/package.json",
+      "sha256": "ef4018f69c31cba6842f6ce11f9ce67936cdeabaccb6b3765f8aff0a949ce5ac",
+      "upstreamPath": "extensions/debug-auto-launch/package.json"
+    },
+    {
+      "bytes": 188,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/debug-auto-launch/package.nls.json",
+      "sha256": "ca39a6b801a371475a68b3538c6fa0e7657ca17b7fd209f6164de3047c4fa0bc",
+      "upstreamPath": "extensions/debug-auto-launch/package.nls.json"
+    },
+    {
+      "bytes": 9097,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/debug-server-ready/package.json",
+      "sha256": "b3cd9cdf6363536f4e018d89c85ba8f1539d7d573f26b157a92b16dde979d6b2",
+      "upstreamPath": "extensions/debug-server-ready/package.json"
+    },
+    {
+      "bytes": 1640,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/debug-server-ready/package.nls.json",
+      "sha256": "f9ea6b8f8a48ca459cd666c6420808164cb017df5a3a7d2519b498ff5bce508f",
+      "upstreamPath": "extensions/debug-server-ready/package.nls.json"
+    },
+    {
+      "bytes": 906,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/diff/package.json",
+      "sha256": "4c037f738c1e38ca146a10ac4f5c24de2891041ccf3c57f508e729c23dd8cef7",
+      "upstreamPath": "extensions/diff/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/diff/package.nls.json",
+      "sha256": "c31ceac09aa80fa4e27218ab1da13d6bea31e42fbcab727922be7c03ef192160",
+      "upstreamPath": "extensions/diff/package.nls.json"
+    },
+    {
+      "bytes": 1242,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/docker/package.json",
+      "sha256": "2951065ac524c3073fcaadf033b5f5e2f60732a47e93d0d88276540dbffc8d69",
+      "upstreamPath": "extensions/docker/package.json"
+    },
+    {
+      "bytes": 135,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/docker/package.nls.json",
+      "sha256": "40707b62230687bbca61539ea96b590aa3ac55a96c670593687858f8f5f1c58e",
+      "upstreamPath": "extensions/docker/package.nls.json"
+    },
+    {
+      "bytes": 1138,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/dotenv/package.json",
+      "sha256": "7393d439110ceb5752767832f1c35a3ecfab44973a764e208181fc6802a067ac",
+      "upstreamPath": "extensions/dotenv/package.json"
+    },
+    {
+      "bytes": 135,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/dotenv/package.nls.json",
+      "sha256": "c99f55cfec37036d88617450b255c6ff944c71ced35f26cacefddd8822c8ac64",
+      "upstreamPath": "extensions/dotenv/package.nls.json"
+    },
+    {
+      "bytes": 16670,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/emmet/package.json",
+      "sha256": "7f7bf7ad5b29deb51426de052e1144ce18c8cae7cc37bad223330c9727109293",
+      "upstreamPath": "extensions/emmet/package.json"
+    },
+    {
+      "bytes": 7204,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/emmet/package.nls.json",
+      "sha256": "66ec6bef55cee7d4f06ee6a6094d5116f49e0740523e589b4053201ff3060cbf",
+      "upstreamPath": "extensions/emmet/package.nls.json"
+    },
+    {
+      "bytes": 1832,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/extension-editing/package.json",
+      "sha256": "44be4829b2eb172bad4249c97892144b4f3eec3c67d0e8a3060bc92048baf489",
+      "upstreamPath": "extensions/extension-editing/package.json"
+    },
+    {
+      "bytes": 121,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/extension-editing/package.nls.json",
+      "sha256": "4fddf278c49487453c0b4d99f3996ff3ec03387d6e89ad6d114499955a84fe1e",
+      "upstreamPath": "extensions/extension-editing/package.nls.json"
+    },
+    {
+      "bytes": 1302,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/fsharp/package.json",
+      "sha256": "4e9a2a5637d8b8061778352dbe9e8ed627be75e924c37ad770cb267a2d2bd80b",
+      "upstreamPath": "extensions/fsharp/package.json"
+    },
+    {
+      "bytes": 146,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/fsharp/package.nls.json",
+      "sha256": "c46304998bd0c9835d6a88e159a3068f96d3f7d3dc03e5288ef9057b53efa01e",
+      "upstreamPath": "extensions/fsharp/package.nls.json"
+    },
+    {
+      "bytes": 2727,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/git-base/package.json",
+      "sha256": "22ca9d451cc9090aad1080f507515b4661aa9fb8516ea75dbe93ea563301ec15",
+      "upstreamPath": "extensions/git-base/package.json"
+    },
+    {
+      "bytes": 148,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/git-base/package.nls.json",
+      "sha256": "9dec2edc7d1bfb4ec4f0e5914c10bf47fa6bf51d4e5c488bf787a42721a80f9d",
+      "upstreamPath": "extensions/git-base/package.nls.json"
+    },
+    {
+      "bytes": 142849,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/git/package.json",
+      "sha256": "1a6c1ce95e6ea1afda59676b28e9c6bc61fecc249d204437541ac5d33ed544d7",
+      "upstreamPath": "extensions/git/package.json"
+    },
+    {
+      "bytes": 40184,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/git/package.nls.json",
+      "sha256": "3f0dd5ee1341623e748af5c49dcf225a6392924d43cb05bbc7e7a55a756ab849",
+      "upstreamPath": "extensions/git/package.nls.json"
+    },
+    {
+      "bytes": 2804,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/github-authentication/package.json",
+      "sha256": "af1b977f6ff30aba70b2a96fc3498ddd4f240c34b680c0c131463001caf5810f",
+      "upstreamPath": "extensions/github-authentication/package.json"
+    },
+    {
+      "bytes": 1222,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/github-authentication/package.nls.json",
+      "sha256": "201772acb484f9d6d54bf8240b61f30744ac6f7e336aea5a6458d6a0efb3f967",
+      "upstreamPath": "extensions/github-authentication/package.nls.json"
+    },
+    {
+      "bytes": 7817,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/github/package.json",
+      "sha256": "1bc86699407824d622fe64a41cb6fea8799cb9f37c2b2774c064da6981f91c48",
+      "upstreamPath": "extensions/github/package.json"
+    },
+    {
+      "bytes": 2162,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/github/package.nls.json",
+      "sha256": "f923f113e80013ef5b35baa8870293920c294bc96880956e4a415efd694f0f5c",
+      "upstreamPath": "extensions/github/package.nls.json"
+    },
+    {
+      "bytes": 1034,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/go/package.json",
+      "sha256": "e00f73afadbb001d739e4ef21a2a65a12dcd87dbaceb912c19a828f2175edc68",
+      "upstreamPath": "extensions/go/package.json"
+    },
+    {
+      "bytes": 127,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/go/package.nls.json",
+      "sha256": "bd9daeb7b8b993b396336ddd5f12044809c7e892d399f734c559954d3e976734",
+      "upstreamPath": "extensions/go/package.nls.json"
+    },
+    {
+      "bytes": 1373,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/groovy/package.json",
+      "sha256": "2333066955b35ac724b833360a09157642a07e3e357462020271f753c5934e9b",
+      "upstreamPath": "extensions/groovy/package.json"
+    },
+    {
+      "bytes": 145,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/groovy/package.nls.json",
+      "sha256": "384c11964882feaebe715eb69c00a9c7a838183c15823b5dea08da2d51edec6c",
+      "upstreamPath": "extensions/groovy/package.nls.json"
+    },
+    {
+      "bytes": 1876,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/grunt/package.json",
+      "sha256": "7bfaa64db2b8e5becb0dce20c592e7d4a2b07a52818d735daaa89023578f3cd5",
+      "upstreamPath": "extensions/grunt/package.json"
+    },
+    {
+      "bytes": 542,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/grunt/package.nls.json",
+      "sha256": "ff85e70720ff4e7beec4ca96a9346659b02449d03d5f356df32f73f0dea50937",
+      "upstreamPath": "extensions/grunt/package.nls.json"
+    },
+    {
+      "bytes": 1663,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/gulp/package.json",
+      "sha256": "a145b3b5be3143dc6330848f898e7d3850657bd8d421c83020d75c10143981a6",
+      "upstreamPath": "extensions/gulp/package.json"
+    },
+    {
+      "bytes": 436,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/gulp/package.nls.json",
+      "sha256": "170c76bd247f72eecda9c499dcfe2049d19d900a024b2a769e254f38b41c4387",
+      "upstreamPath": "extensions/gulp/package.nls.json"
+    },
+    {
+      "bytes": 1318,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/handlebars/package.json",
+      "sha256": "e5abf3a771a720b40964dfcdfcb094c5046eaf908b177e8b6ead0e04d79dfea1",
+      "upstreamPath": "extensions/handlebars/package.json"
+    },
+    {
+      "bytes": 143,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/handlebars/package.nls.json",
+      "sha256": "5132ae70016c736bedc6f3f99ea4f0433391100e9fc987ffc4b249c0c9a5de18",
+      "upstreamPath": "extensions/handlebars/package.nls.json"
+    },
+    {
+      "bytes": 1103,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/hlsl/package.json",
+      "sha256": "fa142308d8882a2609b5a16bb39c927750d0976fb496c5d41409d73c943f7d7b",
+      "upstreamPath": "extensions/hlsl/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/hlsl/package.nls.json",
+      "sha256": "6149b8370c566cceb501243b23f103f993da6333841164dd84f65e70f333eff9",
+      "upstreamPath": "extensions/hlsl/package.nls.json"
+    },
+    {
+      "bytes": 8812,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/html-language-features/package.json",
+      "sha256": "46ae6fb69de43411d2ec0acacbf92d619ba89e8a21e4ef23ba4e51e5b846015f",
+      "upstreamPath": "extensions/html-language-features/package.json"
+    },
+    {
+      "bytes": 4418,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/html-language-features/package.nls.json",
+      "sha256": "99b06dfb76cddcf38a06ba2c3f9dde60c14118cb0402092e0538d39079e6dd3c",
+      "upstreamPath": "extensions/html-language-features/package.nls.json"
+    },
+    {
+      "bytes": 2192,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/html/package.json",
+      "sha256": "0d0ce6a4bc9c875187df61865695c45d34f69d019f68ec4169ff48859890efab",
+      "upstreamPath": "extensions/html/package.json"
+    },
+    {
+      "bytes": 139,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/html/package.nls.json",
+      "sha256": "bec005f8d8779f0414e88a19af4a4dc0c79a3ec1814c4cf23f9d1cc59656549f",
+      "upstreamPath": "extensions/html/package.nls.json"
+    },
+    {
+      "bytes": 1733,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ini/package.json",
+      "sha256": "9abdc33e21ccc2c70367ccbe609463302cbcc485e01dfaa95984a3c739f2b450",
+      "upstreamPath": "extensions/ini/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ini/package.nls.json",
+      "sha256": "4f98c701af01f0f9bcbdee3c222971196c1d3da87201bd27c7381188d9609b6d",
+      "upstreamPath": "extensions/ini/package.nls.json"
+    },
+    {
+      "bytes": 4935,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ipynb/package.json",
+      "sha256": "28488224ba83ec7056f944caccc1af459cac42836cdbee679415936ecffdaccb",
+      "upstreamPath": "extensions/ipynb/package.json"
+    },
+    {
+      "bytes": 1060,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ipynb/package.nls.json",
+      "sha256": "72d5e0bc952605371fda8a847f2d06a293bb2e127a85c96a7600ce2e2cca993d",
+      "upstreamPath": "extensions/ipynb/package.nls.json"
+    },
+    {
+      "bytes": 1669,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/jake/package.json",
+      "sha256": "fc76cf98118a533b0f9f0fdde67301cc53b3a176c2cdf5ea859170c37e7b10f6",
+      "upstreamPath": "extensions/jake/package.json"
+    },
+    {
+      "bytes": 438,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/jake/package.nls.json",
+      "sha256": "bab7c7d8892685bcf152f173342469d2f75acc9b088169b7879bf58cffeac50b",
+      "upstreamPath": "extensions/jake/package.nls.json"
+    },
+    {
+      "bytes": 1131,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/java/package.json",
+      "sha256": "a8e093583731a7ddaea91003d30aeedc768502b866bec48b8b9a8796c53b943a",
+      "upstreamPath": "extensions/java/package.json"
+    },
+    {
+      "bytes": 150,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/java/package.nls.json",
+      "sha256": "17271718448a97feb7e838de1c116de88e4db75c610ac5942ca556d4b07e4cf2",
+      "upstreamPath": "extensions/java/package.nls.json"
+    },
+    {
+      "bytes": 4917,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/javascript/package.json",
+      "sha256": "10b943fcc0d1c72648ed3596e42f1365df6463df3ad6902b6c2c1a6d2a05a06c",
+      "upstreamPath": "extensions/javascript/package.json"
+    },
+    {
+      "bytes": 162,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/javascript/package.nls.json",
+      "sha256": "bbd042e15061f09dbc38ae8ec996a9b84538fda81d8ee7a7a0de62bb1c22970c",
+      "upstreamPath": "extensions/javascript/package.nls.json"
+    },
+    {
+      "bytes": 6127,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/json-language-features/package.json",
+      "sha256": "ec682cdc891e7a9130d60c4e9081c3698858508ca170eb886801bea56362df36",
+      "upstreamPath": "extensions/json-language-features/package.json"
+    },
+    {
+      "bytes": 2472,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/json-language-features/package.nls.json",
+      "sha256": "14d251ce1b8d857736ae34c1f933ea3c672cbaf567eb804dbb9613596ef70e4a",
+      "upstreamPath": "extensions/json-language-features/package.nls.json"
+    },
+    {
+      "bytes": 3129,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/json/package.json",
+      "sha256": "01da7425962c4d2f224ec92ceae4d97344a51c590f52718bf0de148e95f1dce5",
+      "upstreamPath": "extensions/json/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/json/package.nls.json",
+      "sha256": "8ae01656bb0a426151641299b386c70d1eb479d3d5ddd743398bd91fa9f50243",
+      "upstreamPath": "extensions/json/package.nls.json"
+    },
+    {
+      "bytes": 1417,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/julia/package.json",
+      "sha256": "98adae83f03a208827224083e98caf03304596c57a324b69f9ec7219cbd81c5a",
+      "upstreamPath": "extensions/julia/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/julia/package.nls.json",
+      "sha256": "75d21dae10a4ff462852c57e02167a9adbca56a7069dc089d33e2d8b4323c42c",
+      "upstreamPath": "extensions/julia/package.nls.json"
+    },
+    {
+      "bytes": 3164,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/latex/package.json",
+      "sha256": "c2d8e52568363bacd508a1f5e552a25cb76aae34db07be82a9be4e7c5d019db0",
+      "upstreamPath": "extensions/latex/package.json"
+    },
+    {
+      "bytes": 144,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/latex/package.nls.json",
+      "sha256": "8c6c18686b2735df8a9384ab2c2f6f063ae7e51ba40567f9c218f1d786ca9926",
+      "upstreamPath": "extensions/latex/package.nls.json"
+    },
+    {
+      "bytes": 1366,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/less/package.json",
+      "sha256": "92406a84a4bc3eed472dffac0b33e13a9911aad91503083e42d97e88fa7e594f",
+      "upstreamPath": "extensions/less/package.json"
+    },
+    {
+      "bytes": 140,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/less/package.nls.json",
+      "sha256": "cd670f72bad74dab74a5b794c875e8aaa9845661e7f2bb228c56e0347b94f7e6",
+      "upstreamPath": "extensions/less/package.nls.json"
+    },
+    {
+      "bytes": 910,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/log/package.json",
+      "sha256": "84ab0466078a7d0c8590a8801b581782d3a07fd9cbec4f24f4176422b644d516",
+      "upstreamPath": "extensions/log/package.json"
+    },
+    {
+      "bytes": 109,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/log/package.nls.json",
+      "sha256": "6c3a6e73328efb3d88f3b14fd91fd37b74e6aa8fdb6bc694f5b716517d7e7774",
+      "upstreamPath": "extensions/log/package.nls.json"
+    },
+    {
+      "bytes": 1040,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/lua/package.json",
+      "sha256": "ce7408fde690eed44563a3f159ddd84868076bf03cd21f43a43ee0135200036d",
+      "upstreamPath": "extensions/lua/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/lua/package.nls.json",
+      "sha256": "8401a9eec03068bc21f14ac441f02e84d2db02f3f7a9c8884f165b0d334aea96",
+      "upstreamPath": "extensions/lua/package.nls.json"
+    },
+    {
+      "bytes": 1371,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/make/package.json",
+      "sha256": "f41dacab3f1fc459a2a32bbc0cd1c54bf0f245568a48236953594f66460f85a2",
+      "upstreamPath": "extensions/make/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/make/package.nls.json",
+      "sha256": "0f4febe57d963bd4778e4b8b144340049d83e5af74cc95753e029fed4a386c2a",
+      "upstreamPath": "extensions/make/package.nls.json"
+    },
+    {
+      "bytes": 4312,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-basics/package.json",
+      "sha256": "9b10b9178deadb6a3638df16dafa6e162348a61c5d7bd563282dad487eb40b57",
+      "upstreamPath": "extensions/markdown-basics/package.json"
+    },
+    {
+      "bytes": 126,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-basics/package.nls.json",
+      "sha256": "9a0601236d04805f306f69376590e9773d6494f5f256029d1b888efc0d66ea91",
+      "upstreamPath": "extensions/markdown-basics/package.nls.json"
+    },
+    {
+      "bytes": 34655,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-language-features/package.json",
+      "sha256": "fa115d2678393abadb77fb0c5791c7e84471dd50f79de54b3b31f9f7d56fd4fe",
+      "upstreamPath": "extensions/markdown-language-features/package.json"
+    },
+    {
+      "bytes": 15827,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-language-features/package.nls.json",
+      "sha256": "9686d4c8f0c9e7d39b3a1958a8db4403d178fca9105af5bdcc11ffafeee3be86",
+      "upstreamPath": "extensions/markdown-language-features/package.nls.json"
+    },
+    {
+      "bytes": 3339,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-math/package.json",
+      "sha256": "878e406d000b557580bd4c148f045fae71a1b8aab77ff14b3f1ced73fc592bbf",
+      "upstreamPath": "extensions/markdown-math/package.json"
+    },
+    {
+      "bytes": 383,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/markdown-math/package.nls.json",
+      "sha256": "2509d942dcebaae749b90073e67c702dbba1d0c3b837bda7da2b0d8610c36074",
+      "upstreamPath": "extensions/markdown-math/package.nls.json"
+    },
+    {
+      "bytes": 5400,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/media-preview/package.json",
+      "sha256": "33f90ef0d08a4bd009a20d2ade00b224f381a69fb87c3be1aab2d7be3791f10d",
+      "upstreamPath": "extensions/media-preview/package.json"
+    },
+    {
+      "bytes": 647,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/media-preview/package.nls.json",
+      "sha256": "c1d8452276a281940f3467a67cdcde499c56857a0d195a47fd57d60b41bd02a1",
+      "upstreamPath": "extensions/media-preview/package.nls.json"
+    },
+    {
+      "bytes": 5891,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/merge-conflict/package.json",
+      "sha256": "d80a19961b3d4d8759f98e0ddae22a35d87db0ec1b6708698d2eb4050fb37ca7",
+      "upstreamPath": "extensions/merge-conflict/package.json"
+    },
+    {
+      "bytes": 1373,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/merge-conflict/package.nls.json",
+      "sha256": "07e7626a0533ac3bd16603e26a0673dfa8ad8f9fcf3ca66681c5ad669b0095ba",
+      "upstreamPath": "extensions/merge-conflict/package.nls.json"
+    },
+    {
+      "bytes": 9619,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/mermaid-markdown-features/package.json",
+      "sha256": "0038a9effafbf2568661182f7d87d712bbf79d4036c56070d774df9c1667cece",
+      "upstreamPath": "extensions/mermaid-markdown-features/package.json"
+    },
+    {
+      "bytes": 2741,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/mermaid-markdown-features/package.nls.json",
+      "sha256": "289eb474bfc78346310073315f7cd3e7297edc0cb88b699c6be61454154c7c13",
+      "upstreamPath": "extensions/mermaid-markdown-features/package.nls.json"
+    },
+    {
+      "bytes": 5406,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/microsoft-authentication/package.json",
+      "sha256": "33093992aa84854340678239510f6d32ebdf845eb580e3dd91c81d16445fdad7",
+      "upstreamPath": "extensions/microsoft-authentication/package.json"
+    },
+    {
+      "bytes": 2738,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/microsoft-authentication/package.nls.json",
+      "sha256": "4b0efc0cf4590475e618f55cecd791cfc032f284b2503864a20b1f96cf306331",
+      "upstreamPath": "extensions/microsoft-authentication/package.nls.json"
+    },
+    {
+      "bytes": 1527,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/notebook-renderers/package.json",
+      "sha256": "377da31363b1022e570e2dbb2710c98bce5429c73d3a1496d75a8c0dfa6bde2f",
+      "upstreamPath": "extensions/notebook-renderers/package.json"
+    },
+    {
+      "bytes": 125,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/notebook-renderers/package.nls.json",
+      "sha256": "832edaf8cdf46bbd29d642f9e321ffcb2138c2a3e18322411f873779e6986ed1",
+      "upstreamPath": "extensions/notebook-renderers/package.nls.json"
+    },
+    {
+      "bytes": 10684,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/npm/package.json",
+      "sha256": "2bb441d5e493f89a77f403f9975f150afe17a81a79472a685a633557b05f3e27",
+      "upstreamPath": "extensions/npm/package.json"
+    },
+    {
+      "bytes": 3127,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/npm/package.nls.json",
+      "sha256": "afdbeec4e31bf2bfeadcb3a102a81c8ff38a26d01878d26e491b517763c25ce2",
+      "upstreamPath": "extensions/npm/package.nls.json"
+    },
+    {
+      "bytes": 1262,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/objective-c/package.json",
+      "sha256": "dce424fb95b02c481c1b3d9b3c16dfb94f1cff4ee71e5566de8355f9b5faa309",
+      "upstreamPath": "extensions/objective-c/package.json"
+    },
+    {
+      "bytes": 145,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/objective-c/package.nls.json",
+      "sha256": "eee9834abdbe40acfa86cc24111c619308b4ca858a99e551d1ca091e09dcd84f",
+      "upstreamPath": "extensions/objective-c/package.nls.json"
+    },
+    {
+      "bytes": 1873,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/perl/package.json",
+      "sha256": "426db4b3698ddf191b3fc09b8a0ae702ab951f381b318b34018150afe553de2a",
+      "upstreamPath": "extensions/perl/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/perl/package.nls.json",
+      "sha256": "808efc610a51451f92c4bc222278f84e84381e21f8dcbbd483ed170931cb6f78",
+      "upstreamPath": "extensions/perl/package.nls.json"
+    },
+    {
+      "bytes": 2191,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/php-language-features/package.json",
+      "sha256": "d97b502cb7788a3420a3cc20a4ce6a48263ee052346fc402dfb9b083b7ad449b",
+      "upstreamPath": "extensions/php-language-features/package.json"
+    },
+    {
+      "bytes": 830,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/php-language-features/package.nls.json",
+      "sha256": "cbb391b23aaea838e1416268321390fa4c3a2672977b9c6e6f5b27d057f0e0eb",
+      "upstreamPath": "extensions/php-language-features/package.nls.json"
+    },
+    {
+      "bytes": 1589,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/php/package.json",
+      "sha256": "04fb3f4d79318166b7443cd981bcbcffb48bb2b1b0f9e34012127197272b6a82",
+      "upstreamPath": "extensions/php/package.json"
+    },
+    {
+      "bytes": 130,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/php/package.nls.json",
+      "sha256": "c3d8b88bd90f772e5b3d0d5b2d80ddb16218d8e5d668f7e533588d0f31677128",
+      "upstreamPath": "extensions/php/package.nls.json"
+    },
+    {
+      "bytes": 1196,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/powershell/package.json",
+      "sha256": "7c65cfa1df04333fcbc646872b12fb93a6e276bf0362ce654c106ff9174ddd86",
+      "upstreamPath": "extensions/powershell/package.json"
+    },
+    {
+      "bytes": 162,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/powershell/package.nls.json",
+      "sha256": "628882995982c0db9d391a96d2a4f72e6c78bf98b96917d4b2bf8adeaf009144",
+      "upstreamPath": "extensions/powershell/package.nls.json"
+    },
+    {
+      "bytes": 5099,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/prompt-basics/package.json",
+      "sha256": "fe550232eec8be86f38a313ca6b87ac0d20f7cd642ac0fdf6d7d54aa47765006",
+      "upstreamPath": "extensions/prompt-basics/package.json"
+    },
+    {
+      "bytes": 127,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/prompt-basics/package.nls.json",
+      "sha256": "b5ca10de8beabc801739c557ce1a397d57ca546d5afcd02db01600e54362cae0",
+      "upstreamPath": "extensions/prompt-basics/package.nls.json"
+    },
+    {
+      "bytes": 1118,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/pug/package.json",
+      "sha256": "8705b3c37851884dae16a1d6fcc11905160b3eedb4eb11650f38ca72dcdacee2",
+      "upstreamPath": "extensions/pug/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/pug/package.nls.json",
+      "sha256": "25695cf9f6f93ce7addd766e5dcebd0062e06e740e0e060cbe338229e0d055ae",
+      "upstreamPath": "extensions/pug/package.nls.json"
+    },
+    {
+      "bytes": 1652,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/python/package.json",
+      "sha256": "5bae28b35f541f561b099b5c052e3ae370d1cfa0df39c42c7e88abd772d2c45e",
+      "upstreamPath": "extensions/python/package.json"
+    },
+    {
+      "bytes": 144,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/python/package.nls.json",
+      "sha256": "afb7de49d13c28da95734762e8aa637b635dcfe715df6d65ddfd883337bf62f2",
+      "upstreamPath": "extensions/python/package.nls.json"
+    },
+    {
+      "bytes": 1003,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/r/package.json",
+      "sha256": "0a5140added305f9a88a908bde40ca986f21ac5a1a7700faedb3ac096ee71f89",
+      "upstreamPath": "extensions/r/package.json"
+    },
+    {
+      "bytes": 125,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/r/package.nls.json",
+      "sha256": "620509d18c8b45bb916d8b2beaa4bee146b6eb54d843b38971f0fbf9295b673e",
+      "upstreamPath": "extensions/r/package.nls.json"
+    },
+    {
+      "bytes": 1140,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/razor/package.json",
+      "sha256": "ee33b138ecd04bba0b864cbfac3b25cb8191abc5e6969ed400c653488f865fa9",
+      "upstreamPath": "extensions/razor/package.json"
+    },
+    {
+      "bytes": 142,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/razor/package.nls.json",
+      "sha256": "a107f6251996469fb807dd85cca4341c5ffabddd27abc28c1ec0461b5f6ad181",
+      "upstreamPath": "extensions/razor/package.nls.json"
+    },
+    {
+      "bytes": 13576,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/references-view/package.json",
+      "sha256": "3271b91331a9dfde610ff7285a4152551a1aed464bf36c6f374559045b558971",
+      "upstreamPath": "extensions/references-view/package.json"
+    },
+    {
+      "bytes": 1716,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/references-view/package.nls.json",
+      "sha256": "c183721d319768408d2ab1ae25adba60bdf5f9f99d9cc670f17c741e67e8e19a",
+      "upstreamPath": "extensions/references-view/package.nls.json"
+    },
+    {
+      "bytes": 907,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/restructuredtext/package.json",
+      "sha256": "dccca2f45320134efe767101186054d242836a80f5079d2094ea504ec8f3e3de",
+      "upstreamPath": "extensions/restructuredtext/package.json"
+    },
+    {
+      "bytes": 134,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/restructuredtext/package.nls.json",
+      "sha256": "741f34f9fc7014266ec1896274942482f2940dcdf7a3a1172aad435efbc6ba6e",
+      "upstreamPath": "extensions/restructuredtext/package.nls.json"
+    },
+    {
+      "bytes": 1865,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ruby/package.json",
+      "sha256": "e2f76f7e0e30921a34030bdf3fc19b39d3b6678ea27306577d3a7d42ef35449e",
+      "upstreamPath": "extensions/ruby/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/ruby/package.nls.json",
+      "sha256": "061eeda6e8ec2d2f5774bc82c4a2e3e333217500963c6c0107a8e4e72e5692a5",
+      "upstreamPath": "extensions/ruby/package.nls.json"
+    },
+    {
+      "bytes": 867,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/rust/package.json",
+      "sha256": "737ef4fed0e7a4e5df93afb1f6ccfaf828748a69f76f3cd940e2de24b6910490",
+      "upstreamPath": "extensions/rust/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/rust/package.nls.json",
+      "sha256": "61f327e5f7eae6f5fb8e0b640b121ad3e243276f13975927cd974bb0a59b5f7e",
+      "upstreamPath": "extensions/rust/package.nls.json"
+    },
+    {
+      "bytes": 2116,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/scss/package.json",
+      "sha256": "85fc5698a852503d4a67065048b6ed07111026bd06d97d0dea69011c219bc782",
+      "upstreamPath": "extensions/scss/package.json"
+    },
+    {
+      "bytes": 140,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/scss/package.nls.json",
+      "sha256": "4d1d47d7f5130592591b2e4ad10ccb43047eca23696048259d4caf7aca4b24d5",
+      "upstreamPath": "extensions/scss/package.nls.json"
+    },
+    {
+      "bytes": 1905,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/search-result/package.json",
+      "sha256": "65aa86886ab5ca4143496a9661fdd88c4d29e4d7795047eb9b099e005b14395a",
+      "upstreamPath": "extensions/search-result/package.json"
+    },
+    {
+      "bytes": 137,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/search-result/package.nls.json",
+      "sha256": "ce1c9b586bbc3e70cd7d3ae683873e3fd56a4cd2913e24e6e7b951e442c177f0",
+      "upstreamPath": "extensions/search-result/package.nls.json"
+    },
+    {
+      "bytes": 1010,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/shaderlab/package.json",
+      "sha256": "28ba45684c8fd1b8ce89d49197975d9835972577a19d8a1c8d8a6347ab0b2333",
+      "upstreamPath": "extensions/shaderlab/package.json"
+    },
+    {
+      "bytes": 141,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/shaderlab/package.nls.json",
+      "sha256": "0e38086eb4da828eaa60c5c35d2e1982d8dd9b31dff456f06870931670dfdeac",
+      "upstreamPath": "extensions/shaderlab/package.nls.json"
+    },
+    {
+      "bytes": 2615,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/shellscript/package.json",
+      "sha256": "5348aa496fcc27c36834a8be837b89923c8e16da226e5bd6dbfe094f54a6b68e",
+      "upstreamPath": "extensions/shellscript/package.json"
+    },
+    {
+      "bytes": 147,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/shellscript/package.nls.json",
+      "sha256": "7b68d85988c35b69a000329c97179c03ebaf251245d7453aeba6903a26f471b6",
+      "upstreamPath": "extensions/shellscript/package.nls.json"
+    },
+    {
+      "bytes": 2749,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/simple-browser/package.json",
+      "sha256": "4270fbd52a3d9ba3001d1053cd567da0301f13124dadb464a6ca521b8ab555bb",
+      "upstreamPath": "extensions/simple-browser/package.json"
+    },
+    {
+      "bytes": 264,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/simple-browser/package.nls.json",
+      "sha256": "ba5a77b69c8a590c579d21cbd11b39c8486cd78268674d4fffba387941919c6a",
+      "upstreamPath": "extensions/simple-browser/package.nls.json"
+    },
+    {
+      "bytes": 886,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/sql/package.json",
+      "sha256": "5bd32329f27773855035943d1d9e90f25c7ecb3935a73ce1c7868dbecff747b3",
+      "upstreamPath": "extensions/sql/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/sql/package.nls.json",
+      "sha256": "f096bc8b10876d18c1367920a81617989d8663b1166eec1d35324d336230126a",
+      "upstreamPath": "extensions/sql/package.nls.json"
+    },
+    {
+      "bytes": 1099,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/swift/package.json",
+      "sha256": "49f547c6eea41c22598f64cc06e51f470315cf79964152e856ed34dae8e1d2f3",
+      "upstreamPath": "extensions/swift/package.json"
+    },
+    {
+      "bytes": 143,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/swift/package.nls.json",
+      "sha256": "5442927436d688ca9c9725bc84ddb6a0a0afacc7de26cd08d2b80c67354f7984",
+      "upstreamPath": "extensions/swift/package.nls.json"
+    },
+    {
+      "bytes": 1386,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/terminal-suggest/package.json",
+      "sha256": "4cb7f0fe3729b7f8f40da4cfb418374d99e0adea4d7616323493ffb5f9f78e72",
+      "upstreamPath": "extensions/terminal-suggest/package.json"
+    },
+    {
+      "bytes": 266,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/terminal-suggest/package.nls.json",
+      "sha256": "51a428ddbb1ed10141f6d5493744b02a4ecf82fba817fa017c702501d8d0de0f",
+      "upstreamPath": "extensions/terminal-suggest/package.nls.json"
+    },
+    {
+      "bytes": 549,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-abyss/package.json",
+      "sha256": "b7a5c46283ea71d590600e25ed90d1bf19bea64a46688e699c1220ca7ff49958",
+      "upstreamPath": "extensions/theme-abyss/package.json"
+    },
+    {
+      "bytes": 117,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-abyss/package.nls.json",
+      "sha256": "d2877692e1f970d389c50676520f30def7f07a407b9d3580ee7bbc1ed5cbaee4",
+      "upstreamPath": "extensions/theme-abyss/package.nls.json"
+    },
+    {
+      "bytes": 2267,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-defaults/package.json",
+      "sha256": "8e108b43aee9e3ea2a1a11fd357e56de7e5f28d8e7a1bf347c0e581982b8e31c",
+      "upstreamPath": "extensions/theme-defaults/package.json"
+    },
+    {
+      "bytes": 601,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-defaults/package.nls.json",
+      "sha256": "fd3e8fbf54813ef3a18021e3c16a5490268fdf03d38f4abe4beb0bb56a22f535",
+      "upstreamPath": "extensions/theme-defaults/package.nls.json"
+    },
+    {
+      "bytes": 567,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-kimbie-dark/package.json",
+      "sha256": "eea1cca5d370f0746f177aca798dcffc5b53cdd8d651381340906939ff3d6a86",
+      "upstreamPath": "extensions/theme-kimbie-dark/package.json"
+    },
+    {
+      "bytes": 135,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-kimbie-dark/package.nls.json",
+      "sha256": "6ed6f64ba3737df64f63cfc0a629c7396431daeacf7cfe150d4b3d19fa8e154f",
+      "upstreamPath": "extensions/theme-kimbie-dark/package.nls.json"
+    },
+    {
+      "bytes": 576,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-monokai-dimmed/package.json",
+      "sha256": "36eb6a50b1a0b68b11a2c860bf148912874c97b74458cd56ab907d8e7043f29e",
+      "upstreamPath": "extensions/theme-monokai-dimmed/package.json"
+    },
+    {
+      "bytes": 144,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-monokai-dimmed/package.nls.json",
+      "sha256": "e86c519159c3e9cbfaefdd6d387ec4ea367611b9f1ff8346745f25db77c35b1e",
+      "upstreamPath": "extensions/theme-monokai-dimmed/package.nls.json"
+    },
+    {
+      "bytes": 555,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-monokai/package.json",
+      "sha256": "c11ea2bf5431a73ff633fdf2378da718c046d4bad9797d0d1571c245330b36d3",
+      "upstreamPath": "extensions/theme-monokai/package.json"
+    },
+    {
+      "bytes": 123,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-monokai/package.nls.json",
+      "sha256": "3fba8b8f9629124d6341efa4d2400c22fc60768bddeb07bc0929fb56939c5caf",
+      "upstreamPath": "extensions/theme-monokai/package.nls.json"
+    },
+    {
+      "bytes": 560,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-quietlight/package.json",
+      "sha256": "f09706889f6d6b92203c7b911e8701d683a6f259ee897d14b301a8d759894235",
+      "upstreamPath": "extensions/theme-quietlight/package.json"
+    },
+    {
+      "bytes": 135,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-quietlight/package.nls.json",
+      "sha256": "21171d1f57f3047bcbba761d0f59afb123e79c5594990bf117abdeb80af5489b",
+      "upstreamPath": "extensions/theme-quietlight/package.nls.json"
+    },
+    {
+      "bytes": 543,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-red/package.json",
+      "sha256": "97a2b7f0443bae4788a5ca388eee5224d99cb2233db7bd63fe91d84094bff924",
+      "upstreamPath": "extensions/theme-red/package.json"
+    },
+    {
+      "bytes": 111,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-red/package.nls.json",
+      "sha256": "90d8dc9f2db92b2643d3557bacaa539435455172414e152a4b40021a544969e1",
+      "upstreamPath": "extensions/theme-red/package.nls.json"
+    },
+    {
+      "bytes": 669,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-seti/package.json",
+      "sha256": "c6fbe0fe8e65571aaffaa1620873ff899e9a7bd77e45bbe002fbc66637ad2e62",
+      "upstreamPath": "extensions/theme-seti/package.json"
+    },
+    {
+      "bytes": 164,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-seti/package.nls.json",
+      "sha256": "2885e72b635558bb93211618ba3c2e45a89f2c83dccd69aedd484de4777726b8",
+      "upstreamPath": "extensions/theme-seti/package.nls.json"
+    },
+    {
+      "bytes": 576,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-solarized-dark/package.json",
+      "sha256": "44b1cdfab7bf170d8e20f878e07ce3d6d5b0e0f25faed0855f565594efc51401",
+      "upstreamPath": "extensions/theme-solarized-dark/package.json"
+    },
+    {
+      "bytes": 144,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-solarized-dark/package.nls.json",
+      "sha256": "ccefc5ac7995661ae09234317062c1675a9a106ab7c07261ab56a3e9b10376c4",
+      "upstreamPath": "extensions/theme-solarized-dark/package.nls.json"
+    },
+    {
+      "bytes": 574,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-solarized-light/package.json",
+      "sha256": "f91b00ca033f9f8c4c54e208acdc4c94af4c46a6e92812ecfc4d80ae951ee7ef",
+      "upstreamPath": "extensions/theme-solarized-light/package.json"
+    },
+    {
+      "bytes": 147,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-solarized-light/package.nls.json",
+      "sha256": "593ba0665c67f071505bb328378a11e31c3e25499e032847c3e0e17ad9cb287c",
+      "upstreamPath": "extensions/theme-solarized-light/package.nls.json"
+    },
+    {
+      "bytes": 591,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-tomorrow-night-blue/package.json",
+      "sha256": "c8ec5fe972743c73e62bf7c01005f3874e0a5f372a37ef56efce0b29e0672733",
+      "upstreamPath": "extensions/theme-tomorrow-night-blue/package.json"
+    },
+    {
+      "bytes": 159,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/theme-tomorrow-night-blue/package.nls.json",
+      "sha256": "b5e88bb6ad3be9010c77f1ba0e0e776bbb56775aed05d0d347bd47af9472f0d4",
+      "upstreamPath": "extensions/theme-tomorrow-night-blue/package.nls.json"
+    },
+    {
+      "bytes": 1383,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/tunnel-forwarding/package.json",
+      "sha256": "dfa1ab3edd53905b33462db62f5f58c55e2b3fee05c69a1d298947c502a496c2",
+      "upstreamPath": "extensions/tunnel-forwarding/package.json"
+    },
+    {
+      "bytes": 256,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/tunnel-forwarding/package.nls.json",
+      "sha256": "d7e7c32f3ccf51afcbb0f46cbeebc2deeaea3cc8cb3a9798c651db4db4d04178",
+      "upstreamPath": "extensions/tunnel-forwarding/package.nls.json"
+    },
+    {
+      "bytes": 5648,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/typescript-basics/package.json",
+      "sha256": "0d47cd7a223af29a90f82ae5b910ccbea243e5bb42abf30f5af71dffa5db23de",
+      "upstreamPath": "extensions/typescript-basics/package.json"
+    },
+    {
+      "bytes": 162,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/typescript-basics/package.nls.json",
+      "sha256": "c36cd0d89f1747ca21de2ef098a24600f24724f5bed90c2fc2ebca7ba5eb628f",
+      "upstreamPath": "extensions/typescript-basics/package.nls.json"
+    },
+    {
+      "bytes": 131119,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/typescript-language-features/package.json",
+      "sha256": "1a9b5ee2625b375a7d1748f9fbc22ca83aa117585080f5d606b881a35bd21aca",
+      "upstreamPath": "extensions/typescript-language-features/package.json"
+    },
+    {
+      "bytes": 47918,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/typescript-language-features/package.nls.json",
+      "sha256": "e02e212bbbabc7e49767dd77546ee6622e497132404f98ef94eb9367f7116a77",
+      "upstreamPath": "extensions/typescript-language-features/package.nls.json"
+    },
+    {
+      "bytes": 1185,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/vb/package.json",
+      "sha256": "802ec49934daa875b91b056ae6deb1e156fda67699cecb6df28178d4a38654ec",
+      "upstreamPath": "extensions/vb/package.json"
+    },
+    {
+      "bytes": 166,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/vb/package.nls.json",
+      "sha256": "99a18539a3fa9b3be02c6cc429ba3bea562c0bfef7daef433e35a00f9882870b",
+      "upstreamPath": "extensions/vb/package.nls.json"
+    },
+    {
+      "bytes": 2744,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/xml/package.json",
+      "sha256": "31018104cb89682258a08849ab615edcc66edee202b6ec500bd89c89ba2b747d",
+      "upstreamPath": "extensions/xml/package.json"
+    },
+    {
+      "bytes": 129,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/xml/package.nls.json",
+      "sha256": "e93a9791b3a49f0a9d52db54ba1fb2041b753da5be673b1772be82293741b3ae",
+      "upstreamPath": "extensions/xml/package.nls.json"
+    },
+    {
+      "bytes": 2935,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/yaml/package.json",
+      "sha256": "cbc4d4586520887372653a9b6517bf0ff6ddd9adc08422f009196576153ea2b3",
+      "upstreamPath": "extensions/yaml/package.json"
+    },
+    {
+      "bytes": 131,
+      "kind": "source-package-catalog",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/extensions/yaml/package.nls.json",
+      "sha256": "01a22c066b7290417f3fd19847114d5bd854c2e870e7ebf3662351242294e0ee",
+      "upstreamPath": "extensions/yaml/package.nls.json"
+    },
+    {
+      "bytes": 8023,
+      "kind": "source-rule",
+      "origin": "microsoft/vscode",
+      "path": "blobs/source/product.json",
+      "sha256": "36bfa0175ef1031da8b402f5b2c378b0e0a7482f480414ff3cb448fbf6ddafd5",
+      "upstreamPath": "product.json"
+    }
+  ],
+  "counts": {
+    "accountedZeroUnit": 1,
+    "bundleOwners": 93,
+    "consumedRecords": 408,
+    "coreModules": 1800,
+    "coreUnits": 21768,
+    "extensionUnits": 2663,
+    "externalBuiltIns": 3,
+    "localBuiltIns": 90,
+    "modules": 1920,
+    "totalBuiltIns": 93,
+    "totalUnits": 24431
+  },
+  "externalArtifacts": [
+    {
+      "bytes": 1318607,
+      "name": "ms-vscode.js-debug",
+      "sha256": "854eeb8a785b1f41ba2bd02d7ccd4fdbe10021b61473293973c7e96d036c7fb8",
+      "version": "1.117.0"
+    },
+    {
+      "bytes": 52784,
+      "name": "ms-vscode.js-debug-companion",
+      "sha256": "7380a890787452f14b2db7835dfa94de538caf358ebc263f9d46dd68ac52de93",
+      "version": "1.1.3"
+    },
+    {
+      "bytes": 350996,
+      "name": "ms-vscode.vscode-js-profile-table",
+      "sha256": "7361748ddf9fd09d8a2ed1f2a2d7376a2cf9aae708692820b799708385c38e08",
+      "version": "1.0.10"
+    }
+  ],
+  "generatorVersion": 2,
+  "inventorySha256": "14be6a2baa3c64a880e92e88dfd7120a37c72f9be47f6a07d04ba32c1bc3f9d0",
+  "license": {
+    "bytes": 1109,
+    "path": "LICENSE.txt",
+    "reference": "https://github.com/microsoft/vscode/blob/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/LICENSE.txt",
+    "sha256": "cce33203a80863c22499035b1cfb6aba5df5f02e4ea2669cf5bc5730c1864236"
+  }
+}

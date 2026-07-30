@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "提供基本輸出轉譯器畀 Notebook",
+      "displayName": "內置 Notebook 輸出轉譯器"
+    }
+  },
+  "version": "1.0.0"
+}

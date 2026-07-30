@@ -1,0 +1,5 @@
+.gitattributes text eol=lf
+sources/*.json text eol=lf
+extension/package.json text eol=lf
+extension/translations/** text eol=lf
+terminology/**/*.json text eol=lf

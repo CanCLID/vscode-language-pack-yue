@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Solarized 深色主題",
+      "displayName": "Solarized 深色主題",
+      "themeLabel": "Solarized 深色"
+    }
+  },
+  "version": "1.0.0"
+}

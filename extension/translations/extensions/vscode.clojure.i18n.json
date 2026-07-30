@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "提供語法醒目提示同括號配對畀 Clojure 檔案。",
+      "displayName": "Clojure 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,53 @@
+{
+  "contents": {
+    "client/dist/node/htmlClientMain.js": {
+      "Configure": "設定",
+      "Folding Region End": "摺埋區域嘅結尾",
+      "Folding Region Start": "摺埋區域開頭",
+      "HTML Language Server": "HTML 語言伺服器",
+      "Simple HTML5 starting point": "簡單 HTML5 起始範本",
+      "VS Code now has built-in support for auto-renaming tags. Do you want to enable it?": "VS Code 而家內置自動重新命名標籤功能。要唔要啟用？"
+    },
+    "package.nls.json": {
+      "description": "為 HTML 同 Handlebar 檔案提供豐富嘅語言支援",
+      "displayName": "HTML 語言功能",
+      "html.autoClosingTags": "啟用／停用自動補上 HTML 結束標籤。",
+      "html.autoCreateQuotes": "啟用／停用 HTML 屬性賦值時自動建立引號。引號類型可以用 `#html.completion.attributeDefaultValue#` 設定。",
+      "html.completion.attributeDefaultValue": "控制接受自動完成項目嗰陣屬性嘅預設值。",
+      "html.completion.attributeDefaultValue.doublequotes": "將屬性值設做 \"\"。",
+      "html.completion.attributeDefaultValue.empty": "唔設定屬性值。",
+      "html.completion.attributeDefaultValue.singlequotes": "將屬性值設做 ''。",
+      "html.customData.desc": "指向符合[自訂數據格式](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md)嘅 JSON 檔案相對路徑清單。\n\nVS Code 啟動嗰陣會載入自訂數據，加強對 JSON 檔案所指定嘅自訂 HTML 標籤、屬性同屬性值嘅支援。\n\n檔案路徑以工作區為基準，而且只會使用工作區資料夾設定。",
+      "html.format.contentUnformatted.desc": "內容唔應該重新格式化嘅標籤清單，以逗號分隔。`null` 預設為 `pre` 標籤。",
+      "html.format.enable.desc": "啟用或停用預設 HTML 格式化工具。",
+      "html.format.extraLiners.desc": "前面應該加額外換行嘅標籤清單，以逗號分隔。`null` 預設為 `\"head, body, /html\"`。",
+      "html.format.indentHandlebars.desc": "格式化並縮排 `{{#foo}}` 同 `{{/foo}}`。",
+      "html.format.indentInnerHtml.desc": "縮排 `<head>` 同 `<body>` 區段。",
+      "html.format.maxPreserveNewLines.desc": "每一段保留嘅最大換行數。用 `null` 代表無限。",
+      "html.format.preserveNewLines.desc": "控制係咪保留元素之前現有嘅換行。只適用於元素之前，唔適用於標籤入面或文字。",
+      "html.format.templating.desc": "格式化器會認得同跟返 django、erb、handlebars 同 php 嘅範本語言標籤。",
+      "html.format.unformatted.desc": "唔應該重新格式化嘅標籤清單，以逗號分隔。`null` 預設為 https://www.w3.org/TR/html5/dom.html#phrasing-content 列出嘅所有標籤。",
+      "html.format.unformattedContentDelimiter.desc": "呢個字串標示嘅範圍入面，文字內容會保持連埋一齊。",
+      "html.format.wrapAttributes.alignedmultiple": "超過行長度時將屬性換行，再垂直對齊。",
+      "html.format.wrapAttributes.auto": "屬性只會喺超過行長度時換行。",
+      "html.format.wrapAttributes.desc": "將屬性換行。",
+      "html.format.wrapAttributes.force": "除咗第一個屬性之外，其他每個屬性都換行。",
+      "html.format.wrapAttributes.forcealign": "除咗第一個屬性之外，其他每個屬性都換行並保持對齊。",
+      "html.format.wrapAttributes.forcemultiline": "所有屬性都會換行。",
+      "html.format.wrapAttributes.preserve": "保留屬性原有嘅換行。",
+      "html.format.wrapAttributes.preservealigned": "保留屬性原有嘅換行方式，但會將佢哋對齊。",
+      "html.format.wrapAttributesIndentSize.desc": "換行後嘅屬性縮排 N 個字元。用 `null` 就採用預設縮排大小。如果 `#html.format.wrapAttributes#` 設做 `aligned`，就會忽略呢項設定。",
+      "html.format.wrapLineLength.desc": "每行最多幾多個字元（0 = 停用）。",
+      "html.hover.documentation": "喺 hover 顯示標籤同屬性說明文件。",
+      "html.hover.references": "喺 hover 顯示 MDN 參考資料。",
+      "html.mirrorCursorOnMatchingTag": "啟用／停用喺配對 HTML 標籤同步游標。",
+      "html.mirrorCursorOnMatchingTagDeprecationMessage": "已棄用，請改用 `editor.linkedEditing`",
+      "html.suggest.hideEndTagSuggestions.desc": "控制內置 HTML 語言支援係咪建議結束標籤。停用之後，唔會再建議 `</div>` 呢類結束標籤。",
+      "html.suggest.html5.desc": "控制內置 HTML 語言支援係咪建議 HTML5 標籤、屬性同值。",
+      "html.trace.server.desc": "追蹤 VS Code 同 HTML language server 之間嘅通訊內容。",
+      "html.validate.scripts": "控制內置 HTML 語言支援會唔會驗證嵌入式 script。",
+      "html.validate.styles": "控制內置 HTML 語言支援會唔會驗證嵌入式樣式。"
+    }
+  },
+  "version": "1.0.0"
+}

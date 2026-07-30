@@ -1,0 +1,17 @@
+{
+  "contents": {
+    "dist/main.js": {
+      "Auto detecting Jake for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "自動偵測資料夾 {0} 嘅 Jake 失敗，錯誤：{1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown",
+      "Go to output": "去輸出",
+      "Problem finding jake tasks. See the output for more information.": "搵 jake 工作嗰陣有問題。詳情請睇輸出。"
+    },
+    "package.nls.json": {
+      "config.jake.autoDetect": "控制係咪啟用 Jake 工作偵測。Jake 工作偵測可能會執行任何已開啟工作區入面嘅檔案。",
+      "description": "幫 VS Code 加入 Jake 功能嘅擴充功能。",
+      "displayName": "VS Code 嘅 Jake 支援",
+      "jake.taskDefinition.file.description": "提供工作嘅 Jake 檔案。可以省略。",
+      "jake.taskDefinition.type.description": "要自訂嘅 Jake 工作。"
+    }
+  },
+  "version": "1.0.0"
+}

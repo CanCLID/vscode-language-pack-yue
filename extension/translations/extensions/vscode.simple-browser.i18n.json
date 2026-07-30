@@ -1,0 +1,21 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Back": "返回",
+      "Enter url to visit": "輸入想去嘅 URL",
+      "Focus Lock": "焦點鎖定",
+      "Forward": "向前",
+      "Open in browser": "喺瀏覽器開啟",
+      "Open in simple browser": "喺簡易瀏覽器開啟",
+      "Reload": "重新載入",
+      "Simple Browser": "簡易瀏覽器",
+      "https://example.com": "https://example.com"
+    },
+    "package.nls.json": {
+      "configuration.focusLockIndicator.enabled.description": "啟用／停用簡易瀏覽器取得焦點嗰陣顯示嘅浮動指示器。",
+      "description": "一個好基本嘅內置網頁檢視，用嚟顯示網頁內容。",
+      "displayName": "簡易瀏覽器"
+    }
+  },
+  "version": "1.0.0"
+}

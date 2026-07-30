@@ -1,0 +1,11 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 zsh、bash 同 fish 終端機加入補全功能嘅擴充功能。",
+      "displayName": "VS Code 嘅終端機建議",
+      "terminal.integrated.suggest.clearCachedGlobals": "清除建議功能快取咗嘅全域項目",
+      "view.name": "終端機建議"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 YAML 檔案提供語法醒目提示同括號配對。",
+      "displayName": "YAML 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

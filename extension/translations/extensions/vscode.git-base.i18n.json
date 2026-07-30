@@ -1,0 +1,23 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Branch name": "分支名",
+      "Choose a URL to clone from.": "揀要 clone 嘅 URL。",
+      "No remote repositories found.": "搵唔到 remote repo。",
+      "Provide repository URL": "提供儲存庫 URL",
+      "Provide repository URL or pick a repository source.": "提供儲存庫 URL，或者揀儲存庫來源。",
+      "Repository name": "儲存庫名",
+      "Repository name (type to search)": "儲存庫名（輸入文字可以搜尋）",
+      "URL": "URL",
+      "recently opened": "最近開啟過",
+      "remote sources": "遠端來源",
+      "{0} Error: {1}": "{0} 錯誤：{1}"
+    },
+    "package.nls.json": {
+      "command.api.getRemoteSources": "取得遠端來源",
+      "description": "Git 靜態貢獻項目同選擇器。",
+      "displayName": "Git Base"
+    }
+  },
+  "version": "1.0.0"
+}

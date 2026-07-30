@@ -1,0 +1,18 @@
+{
+  "contents": {
+    "dist/main.js": {
+      "Auto detecting Grunt for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "自動偵測資料夾 {0} 嘅 Grunt 失敗，錯誤：{1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown",
+      "Go to output": "前往輸出",
+      "Problem finding grunt tasks. See the output for more information.": "搵 Grunt 工作嗰陣有問題。更多資訊請睇輸出。"
+    },
+    "package.nls.json": {
+      "config.grunt.autoDetect": "控制係咪啟用 Grunt 工作偵測。Grunt 工作偵測可能會執行任何已開啟工作區入面嘅檔案。",
+      "description": "為 VS Code 加入 Grunt 功能嘅擴充功能。",
+      "displayName": "VS Code 嘅 Grunt 支援",
+      "grunt.taskDefinition.args.description": "傳畀 grunt 工作嘅命令列引數",
+      "grunt.taskDefinition.file.description": "提供工作嘅 Grunt 檔案。可以省略。",
+      "grunt.taskDefinition.type.description": "要自訂嘅 Grunt 工作。"
+    }
+  },
+  "version": "1.0.0"
+}

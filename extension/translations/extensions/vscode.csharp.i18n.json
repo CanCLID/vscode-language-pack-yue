@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "提供 snippet、語法醒目提示、括號配對同摺埋畀 C# 檔案。",
+      "displayName": "C# 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "提供程式碼片段、語法醒目提示、括號配對同摺埋畀 Windows batch 檔案。",
+      "displayName": "Windows Bat 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

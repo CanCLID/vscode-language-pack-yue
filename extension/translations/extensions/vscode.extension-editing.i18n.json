@@ -1,0 +1,26 @@
+{
+  "contents": {
+    "dist/extensionEditingMain.js": {
+      "API proposal versions are no longer supported. Remove the '@<version>' suffix.": "已經唔再支援 API proposal 版本。移除「@<version>」後綴。",
+      "Data URLs are not a valid image source.": "Data URL 唔係有效嘅圖片來源。",
+      "Embedded SVGs are not a valid image source.": "內嵌 SVG 唔係有效嘅圖片來源。",
+      "Error parsing the when-clause:": "剖析 when-clause 時出錯：",
+      "Images must use the HTTPS protocol.": "圖片一定要使用 HTTPS 通訊協定。",
+      "Language specific editor settings": "語言專用編輯器設定",
+      "Override editor settings for language": "覆寫語言嘅編輯器設定",
+      "Relative badge URLs require a repository with HTTPS protocol to be specified in this package.json.": "如果用相對徽章 URL，呢個 package.json 就要指定一個使用 HTTPS 通訊協定嘅儲存庫。",
+      "Relative image URLs require a repository with HTTPS protocol to be specified in the package.json.": "如果用相對圖片 URL，package.json 就要指定一個使用 HTTPS 通訊協定嘅儲存庫。",
+      "Remove activation event": "移除啟用事件",
+      "SVGs are not a valid image source.": "SVG 唔係有效嘅圖片來源。",
+      "This activation event can be removed as VS Code generates these automatically from your package.json contribution declarations.": "呢個啟用事件可以移除，因為 VS Code 會按照 package.json 嘅擴充功能貢獻宣告自動產生。",
+      "This activation event cannot be explicitly listed by your extension.": "你嘅擴充功能唔可以明確列出呢個啟用事件。",
+      "This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the VS Code team.": "呢個 API 提案用唔到，因為產品已經為呢個擴充功能定義咗固定嘅 API 提案集合。你可以測試擴充功能，但發佈之前一定要聯絡 VS Code 團隊。",
+      "Using '*' activation is usually a bad idea as it impacts performance.": "使用「*」啟用通常唔係好主意，因為會影響效能。"
+    },
+    "package.nls.json": {
+      "description": "為編寫擴充功能提供靜態檢查功能。",
+      "displayName": "擴充功能編寫"
+    }
+  },
+  "version": "1.0.0"
+}

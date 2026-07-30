@@ -1,0 +1,42 @@
+{
+  "contents": {
+    "dist/mergeConflictMain.js": {
+      "(Current Change)": "（而家嘅改動）",
+      "(Incoming Change)": "（傳入改動）",
+      "Accept Both Changes": "接受兩邊改動",
+      "Accept Current Change": "接受而家嘅改動",
+      "Accept Incoming Change": "接受傳入改動",
+      "Compare Changes": "比較改動",
+      "Editor cursor is not within a merge conflict": "編輯器游標唔喺 merge 衝突入面",
+      "Editor cursor is within the common ancestors block, please move it to either the \"current\" or \"incoming\" block": "編輯器游標喺共同祖先區塊入面，請將游標移到「而家」或者「傳入」區塊",
+      "Editor cursor is within the merge conflict splitter, please move it to either the \"current\" or \"incoming\" block": "編輯器游標喺 merge 衝突分隔符入面，請將游標移到「而家」或者「傳入」區塊",
+      "No merge conflicts found in this file": "喺呢個檔案搵唔到 merge 衝突",
+      "No other merge conflicts within this file": "呢個檔案冇其他 merge 衝突",
+      "{0}: Current Changes ↔ Incoming Changes": "{0}：而家嘅改動 ↔ 傳入改動"
+    },
+    "package.nls.json": {
+      "command.accept.all-both": "全部接受兩邊",
+      "command.accept.all-current": "全部接受而家嘅版本",
+      "command.accept.all-incoming": "全部接受傳入版本",
+      "command.accept.both": "接受兩邊",
+      "command.accept.current": "接受而家嘅版本",
+      "command.accept.incoming": "接受傳入版本",
+      "command.accept.selection": "接受選取範圍",
+      "command.category": "merge 衝突",
+      "command.compare": "比較而家呢個衝突",
+      "command.next": "下一個衝突",
+      "command.previous": "上一個衝突",
+      "config.autoNavigateNextConflictEnabled": "解決 merge 衝突之後係咪自動去下一個 merge 衝突。",
+      "config.codeLensEnabled": "為編輯器入面嘅 merge 衝突區塊建立 CodeLens。",
+      "config.decoratorsEnabled": "為編輯器入面嘅 merge 衝突區塊建立裝飾。",
+      "config.diffViewPosition": "比較 merge 衝突嘅改動嗰陣，控制喺邊度開啟 diff 檢視。",
+      "config.diffViewPosition.below": "喺而家呢個編輯器群組下面開啟 diff 檢視。",
+      "config.diffViewPosition.beside": "喺而家呢個編輯器群組旁邊開啟 diff 檢視。",
+      "config.diffViewPosition.current": "喺而家呢個編輯器群組開啟 diff 檢視。",
+      "config.title": "merge 衝突",
+      "description": "為內嵌 merge 衝突提供醒目提示同指令。",
+      "displayName": "merge 衝突"
+    }
+  },
+  "version": "1.0.0"
+}

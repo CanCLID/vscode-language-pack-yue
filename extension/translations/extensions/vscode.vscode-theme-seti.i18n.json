@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "用 Seti UI 檔案圖示整成嘅檔案圖示主題",
+      "displayName": "Seti 檔案圖示主題",
+      "themeLabel": "Seti（Visual Studio Code）"
+    }
+  },
+  "version": "1.0.0"
+}

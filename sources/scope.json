@@ -1,0 +1,950 @@
+{
+  "schemaVersion": 1,
+  "baseline": {
+    "sourceLocale": "en",
+    "repository": "https://github.com/microsoft/vscode.git",
+    "tag": "1.129.1",
+    "commit": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8"
+  },
+  "counts": {
+    "accountedZeroUnit": 1,
+    "extensionUnits": 2663,
+    "externalBuiltIns": 3,
+    "included": 92,
+    "localBuiltIns": 90,
+    "totalBuiltIns": 93
+  },
+  "extensions": [
+    {
+      "source": "local",
+      "bundleId": "vscode.bat",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "bat",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.clojure",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "clojure",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.coffeescript",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "coffeescript",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.configuration-editing",
+      "disposition": "included",
+      "localizationUnitCount": 61,
+      "name": "configuration-editing",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.cpp",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "cpp",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.csharp",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "csharp",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.css",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "css",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.css-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 114,
+      "name": "css-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.dart",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "dart",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.debug-auto-launch",
+      "disposition": "included",
+      "localizationUnitCount": 22,
+      "name": "debug-auto-launch",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.debug-server-ready",
+      "disposition": "included",
+      "localizationUnitCount": 16,
+      "name": "debug-server-ready",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.diff",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "diff",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.docker",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "docker",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.dotenv",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "dotenv",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.emmet",
+      "disposition": "included",
+      "localizationUnitCount": 63,
+      "name": "emmet",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.extension-editing",
+      "disposition": "included",
+      "localizationUnitCount": 17,
+      "name": "extension-editing",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.fsharp",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "fsharp",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.git",
+      "disposition": "included",
+      "localizationUnitCount": 819,
+      "name": "git",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.git-base",
+      "disposition": "included",
+      "localizationUnitCount": 14,
+      "name": "git-base",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.github",
+      "disposition": "included",
+      "localizationUnitCount": 39,
+      "name": "github",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "0.0.1"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.github-authentication",
+      "disposition": "included",
+      "localizationUnitCount": 28,
+      "name": "github-authentication",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "0.0.2"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.go",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "go",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.groovy",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "groovy",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.grunt",
+      "disposition": "included",
+      "localizationUnitCount": 9,
+      "name": "grunt",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.gulp",
+      "disposition": "included",
+      "localizationUnitCount": 8,
+      "name": "gulp",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.handlebars",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "handlebars",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.hlsl",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "hlsl",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.html",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "html",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.html-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 44,
+      "name": "html-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.ini",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "ini",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.ipynb",
+      "disposition": "included",
+      "localizationUnitCount": 13,
+      "name": "ipynb",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.jake",
+      "disposition": "included",
+      "localizationUnitCount": 8,
+      "name": "jake",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.java",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "java",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.javascript",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "javascript",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.json",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "json",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.json-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 66,
+      "name": "json-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.julia",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "julia",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.latex",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "latex",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.less",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "less",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.log",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "log",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.lua",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "lua",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.make",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "make",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.markdown",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "markdown-basics",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.markdown-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 157,
+      "name": "markdown-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.markdown-math",
+      "disposition": "included",
+      "localizationUnitCount": 4,
+      "name": "markdown-math",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.media-preview",
+      "disposition": "included",
+      "localizationUnitCount": 29,
+      "name": "media-preview",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.merge-conflict",
+      "disposition": "included",
+      "localizationUnitCount": 33,
+      "name": "merge-conflict",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.mermaid-markdown-features",
+      "disposition": "included",
+      "localizationUnitCount": 32,
+      "name": "mermaid-markdown-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.microsoft-authentication",
+      "disposition": "included",
+      "localizationUnitCount": 35,
+      "name": "microsoft-authentication",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "0.0.1"
+    },
+    {
+      "source": "external",
+      "bundleId": "ms-vscode.js-debug",
+      "disposition": "included",
+      "localizationUnitCount": 237,
+      "name": "ms-vscode.js-debug",
+      "sourceIdentity": "ms-vscode.js-debug@1.117.0",
+      "version": "1.117.0"
+    },
+    {
+      "source": "external",
+      "bundleId": "ms-vscode.js-debug-companion",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "ms-vscode.js-debug-companion",
+      "sourceIdentity": "ms-vscode.js-debug-companion@1.1.3",
+      "version": "1.1.3"
+    },
+    {
+      "source": "external",
+      "bundleId": null,
+      "disposition": "accounted-zero-unit",
+      "localizationUnitCount": 0,
+      "name": "ms-vscode.vscode-js-profile-table",
+      "sourceIdentity": "ms-vscode.vscode-js-profile-table@1.0.10",
+      "version": "1.0.10"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.builtin-notebook-renderers",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "notebook-renderers",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.npm",
+      "disposition": "included",
+      "localizationUnitCount": 113,
+      "name": "npm",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "1.0.1"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.objective-c",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "objective-c",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.perl",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "perl",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.php",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "php",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.php-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 15,
+      "name": "php-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.powershell",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "powershell",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.prompt",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "prompt-basics",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.pug",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "pug",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.python",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "python",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.r",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "r",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.razor",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "razor",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.references-view",
+      "disposition": "included",
+      "localizationUnitCount": 45,
+      "name": "references-view",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.restructuredtext",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "restructuredtext",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.ruby",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "ruby",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.rust",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "rust",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.scss",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "scss",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.search-result",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "search-result",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.shaderlab",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "shaderlab",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.shellscript",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "shellscript",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.simple-browser",
+      "disposition": "included",
+      "localizationUnitCount": 12,
+      "name": "simple-browser",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.sql",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "sql",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.swift",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "swift",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.terminal-suggest",
+      "disposition": "included",
+      "localizationUnitCount": 4,
+      "name": "terminal-suggest",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "1.0.1"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-abyss",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-abyss",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-defaults",
+      "disposition": "included",
+      "localizationUnitCount": 13,
+      "name": "theme-defaults",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-kimbie-dark",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-kimbie-dark",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-monokai",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-monokai",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-monokai-dimmed",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-monokai-dimmed",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-quietlight",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-quietlight",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-red",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-red",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.vscode-theme-seti",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-seti",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-solarized-dark",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-solarized-dark",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-solarized-light",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-solarized-light",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.theme-tomorrow-night-blue",
+      "disposition": "included",
+      "localizationUnitCount": 3,
+      "name": "theme-tomorrow-night-blue",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.tunnel-forwarding",
+      "disposition": "included",
+      "localizationUnitCount": 12,
+      "name": "tunnel-forwarding",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.typescript",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "typescript-basics",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.typescript-language-features",
+      "disposition": "included",
+      "localizationUnitCount": 449,
+      "name": "typescript-language-features",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.vb",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "vb",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.xml",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "xml",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    },
+    {
+      "source": "local",
+      "bundleId": "vscode.yaml",
+      "disposition": "included",
+      "localizationUnitCount": 2,
+      "name": "yaml",
+      "sourceIdentity": "8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8",
+      "version": "10.0.0"
+    }
+  ],
+  "generatedBundlePaths": [
+    "extension/translations/extensions/ms-vscode.js-debug.i18n.json",
+    "extension/translations/extensions/ms-vscode.js-debug-companion.i18n.json",
+    "extension/translations/extensions/vscode.bat.i18n.json",
+    "extension/translations/extensions/vscode.builtin-notebook-renderers.i18n.json",
+    "extension/translations/extensions/vscode.clojure.i18n.json",
+    "extension/translations/extensions/vscode.coffeescript.i18n.json",
+    "extension/translations/extensions/vscode.configuration-editing.i18n.json",
+    "extension/translations/extensions/vscode.cpp.i18n.json",
+    "extension/translations/extensions/vscode.csharp.i18n.json",
+    "extension/translations/extensions/vscode.css.i18n.json",
+    "extension/translations/extensions/vscode.css-language-features.i18n.json",
+    "extension/translations/extensions/vscode.dart.i18n.json",
+    "extension/translations/extensions/vscode.debug-auto-launch.i18n.json",
+    "extension/translations/extensions/vscode.debug-server-ready.i18n.json",
+    "extension/translations/extensions/vscode.diff.i18n.json",
+    "extension/translations/extensions/vscode.docker.i18n.json",
+    "extension/translations/extensions/vscode.dotenv.i18n.json",
+    "extension/translations/extensions/vscode.emmet.i18n.json",
+    "extension/translations/extensions/vscode.extension-editing.i18n.json",
+    "extension/translations/extensions/vscode.fsharp.i18n.json",
+    "extension/translations/extensions/vscode.git.i18n.json",
+    "extension/translations/extensions/vscode.git-base.i18n.json",
+    "extension/translations/extensions/vscode.github.i18n.json",
+    "extension/translations/extensions/vscode.github-authentication.i18n.json",
+    "extension/translations/extensions/vscode.go.i18n.json",
+    "extension/translations/extensions/vscode.groovy.i18n.json",
+    "extension/translations/extensions/vscode.grunt.i18n.json",
+    "extension/translations/extensions/vscode.gulp.i18n.json",
+    "extension/translations/extensions/vscode.handlebars.i18n.json",
+    "extension/translations/extensions/vscode.hlsl.i18n.json",
+    "extension/translations/extensions/vscode.html.i18n.json",
+    "extension/translations/extensions/vscode.html-language-features.i18n.json",
+    "extension/translations/extensions/vscode.ini.i18n.json",
+    "extension/translations/extensions/vscode.ipynb.i18n.json",
+    "extension/translations/extensions/vscode.jake.i18n.json",
+    "extension/translations/extensions/vscode.java.i18n.json",
+    "extension/translations/extensions/vscode.javascript.i18n.json",
+    "extension/translations/extensions/vscode.json.i18n.json",
+    "extension/translations/extensions/vscode.json-language-features.i18n.json",
+    "extension/translations/extensions/vscode.julia.i18n.json",
+    "extension/translations/extensions/vscode.latex.i18n.json",
+    "extension/translations/extensions/vscode.less.i18n.json",
+    "extension/translations/extensions/vscode.log.i18n.json",
+    "extension/translations/extensions/vscode.lua.i18n.json",
+    "extension/translations/extensions/vscode.make.i18n.json",
+    "extension/translations/extensions/vscode.markdown.i18n.json",
+    "extension/translations/extensions/vscode.markdown-language-features.i18n.json",
+    "extension/translations/extensions/vscode.markdown-math.i18n.json",
+    "extension/translations/extensions/vscode.media-preview.i18n.json",
+    "extension/translations/extensions/vscode.merge-conflict.i18n.json",
+    "extension/translations/extensions/vscode.mermaid-markdown-features.i18n.json",
+    "extension/translations/extensions/vscode.microsoft-authentication.i18n.json",
+    "extension/translations/extensions/vscode.npm.i18n.json",
+    "extension/translations/extensions/vscode.objective-c.i18n.json",
+    "extension/translations/extensions/vscode.perl.i18n.json",
+    "extension/translations/extensions/vscode.php.i18n.json",
+    "extension/translations/extensions/vscode.php-language-features.i18n.json",
+    "extension/translations/extensions/vscode.powershell.i18n.json",
+    "extension/translations/extensions/vscode.prompt.i18n.json",
+    "extension/translations/extensions/vscode.pug.i18n.json",
+    "extension/translations/extensions/vscode.python.i18n.json",
+    "extension/translations/extensions/vscode.r.i18n.json",
+    "extension/translations/extensions/vscode.razor.i18n.json",
+    "extension/translations/extensions/vscode.references-view.i18n.json",
+    "extension/translations/extensions/vscode.restructuredtext.i18n.json",
+    "extension/translations/extensions/vscode.ruby.i18n.json",
+    "extension/translations/extensions/vscode.rust.i18n.json",
+    "extension/translations/extensions/vscode.scss.i18n.json",
+    "extension/translations/extensions/vscode.search-result.i18n.json",
+    "extension/translations/extensions/vscode.shaderlab.i18n.json",
+    "extension/translations/extensions/vscode.shellscript.i18n.json",
+    "extension/translations/extensions/vscode.simple-browser.i18n.json",
+    "extension/translations/extensions/vscode.sql.i18n.json",
+    "extension/translations/extensions/vscode.swift.i18n.json",
+    "extension/translations/extensions/vscode.terminal-suggest.i18n.json",
+    "extension/translations/extensions/vscode.theme-abyss.i18n.json",
+    "extension/translations/extensions/vscode.theme-defaults.i18n.json",
+    "extension/translations/extensions/vscode.theme-kimbie-dark.i18n.json",
+    "extension/translations/extensions/vscode.theme-monokai.i18n.json",
+    "extension/translations/extensions/vscode.theme-monokai-dimmed.i18n.json",
+    "extension/translations/extensions/vscode.theme-quietlight.i18n.json",
+    "extension/translations/extensions/vscode.theme-red.i18n.json",
+    "extension/translations/extensions/vscode.theme-solarized-dark.i18n.json",
+    "extension/translations/extensions/vscode.theme-solarized-light.i18n.json",
+    "extension/translations/extensions/vscode.theme-tomorrow-night-blue.i18n.json",
+    "extension/translations/extensions/vscode.tunnel-forwarding.i18n.json",
+    "extension/translations/extensions/vscode.typescript.i18n.json",
+    "extension/translations/extensions/vscode.typescript-language-features.i18n.json",
+    "extension/translations/extensions/vscode.vb.i18n.json",
+    "extension/translations/extensions/vscode.vscode-theme-seti.i18n.json",
+    "extension/translations/extensions/vscode.xml.i18n.json",
+    "extension/translations/extensions/vscode.yaml.i18n.json"
+  ]
+}

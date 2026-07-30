@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Monokai 調暗主題",
+      "displayName": "Monokai 調暗主題",
+      "themeLabel": "Monokai 調暗"
+    }
+  },
+  "version": "1.0.0"
+}

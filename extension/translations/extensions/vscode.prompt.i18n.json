@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 Prompt 同 Instructions 文件提供語法醒目提示。",
+      "displayName": "Prompt 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

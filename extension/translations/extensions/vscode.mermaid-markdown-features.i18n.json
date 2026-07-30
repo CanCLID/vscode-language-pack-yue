@@ -1,0 +1,41 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Mermaid Diagram": "Mermaid 圖表",
+      "Open Diagram in Editor": "喺編輯器開啟圖表",
+      "Reset Pan and Zoom": "重設平移同縮放",
+      "Toggle Pan Mode": "切換平移模式",
+      "Zoom In": "放大",
+      "Zoom Out": "縮小"
+    },
+    "package.nls.json": {
+      "command.copySource.title": "複製圖表原始碼",
+      "command.openInEditor.title": "喺編輯器開啟圖表",
+      "command.resetPanZoom.title": "重設平移同縮放",
+      "config.markdown-mermaid.controls.show.always": "一律顯示縮放控制項。",
+      "config.markdown-mermaid.controls.show.description": "控制係咪顯示 Mermaid 圖表嘅 UI 控制項。",
+      "config.markdown-mermaid.controls.show.never": "永遠唔顯示控制項。",
+      "config.markdown-mermaid.controls.show.onHoverOrFocus": "游標停留喺圖表上，或者圖表有焦點嗰陣顯示縮放控制項。",
+      "config.markdown-mermaid.darkModeTheme.description": "深色模式嘅預設 Mermaid 佈景。",
+      "config.markdown-mermaid.languages.description": "Markdown 嘅預設語言。",
+      "config.markdown-mermaid.lightModeTheme.description": "淺色模式嘅預設 Mermaid 佈景。",
+      "config.markdown-mermaid.maxHeight.markdownDescription": "圖表最大高度。一定要係有單位嘅 CSS 值，例如 `80vh` 或 `400px`。留空會嘗試按圖表內容自動調整大小。",
+      "config.markdown-mermaid.maxTextSize.description": "用戶輸入嘅文字圖表大小上限。",
+      "config.markdown-mermaid.mouseNavigation.enabled.alt": "淨係撳住 Alt（macOS 係 Option）嗰陣先啟用滑鼠導覽。冇撳 Alt 時，捏合縮放等手勢仍然有效。",
+      "config.markdown-mermaid.mouseNavigation.enabled.always": "Mermaid 圖表一律啟用滑鼠導覽。",
+      "config.markdown-mermaid.mouseNavigation.enabled.description": "控制幾時喺 Mermaid 圖表啟用滑鼠導覽。",
+      "config.markdown-mermaid.mouseNavigation.enabled.never": "停用滑鼠導覽。",
+      "config.markdown-mermaid.resizable.description": "允許拖曳底邊垂直調整圖表大小。",
+      "config.markdown-mermaid.theme.base.description": "內置 Mermaid 佈景。唯一可以用佈景變數自訂嘅 Mermaid 佈景。",
+      "config.markdown-mermaid.theme.dark.description": "深色背景使用嘅內置 Mermaid 佈景。",
+      "config.markdown-mermaid.theme.default.description": "預設內置 Mermaid 佈景，適合淺色背景。",
+      "config.markdown-mermaid.theme.forest.description": "使用綠色色調嘅內置 Mermaid 佈景。",
+      "config.markdown-mermaid.theme.neutral.description": "使用中性灰階色板嘅內置 Mermaid 佈景，適合黑白打印。",
+      "config.markdown-mermaid.theme.vscode.description": "以而家嘅 VS Code 色彩佈景整出嚟嘅 Mermaid 佈景。",
+      "config.title": "Mermaid",
+      "description": "為內置 Chat、Markdown 預覽同 Notebook 加入 Mermaid 圖表支援。",
+      "displayName": "Mermaid Markdown 功能"
+    }
+  },
+  "version": "1.0.0"
+}

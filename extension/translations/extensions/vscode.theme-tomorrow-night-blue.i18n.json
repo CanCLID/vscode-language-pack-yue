@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Tomorrow Night Blue 主題",
+      "displayName": "Tomorrow Night Blue 主題",
+      "themeLabel": "Tomorrow Night Blue"
+    }
+  },
+  "version": "1.0.0"
+}

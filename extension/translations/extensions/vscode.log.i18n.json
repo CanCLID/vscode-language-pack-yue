@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "喺副檔名係 .log 嘅檔案入面提供語法醒目提示。",
+      "displayName": "記錄"
+    }
+  },
+  "version": "1.0.0"
+}

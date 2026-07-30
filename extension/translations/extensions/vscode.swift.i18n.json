@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "提供 snippet、語法醒目提示同括號配對畀 Swift 檔案。",
+      "displayName": "Swift 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

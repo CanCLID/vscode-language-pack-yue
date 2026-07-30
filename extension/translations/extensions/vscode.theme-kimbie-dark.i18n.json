@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Kimbie 深色佈景主題",
+      "displayName": "Kimbie 深色佈景主題",
+      "themeLabel": "Kimbie 深色"
+    }
+  },
+  "version": "1.0.0"
+}

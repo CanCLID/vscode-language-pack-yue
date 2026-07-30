@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "release-candidate-config-v1",
+  "status": "public-release-authorized",
+  "publicReleaseAuthorized": true,
+  "locale": "yue",
+  "version": "1.129.0",
+  "externalIdentity": {
+    "publisher": "CanCLID",
+    "extensionName": "vscode-language-pack-yue",
+    "repository": "https://github.com/CanCLID/vscode-language-pack-yue"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "config.markdown.math.enabled": "啟用／停用內置 Markdown 預覽嘅數學內容渲染。",
+      "config.markdown.math.macros": "自訂 macro 集合。每個 macro 都係鍵值配對，鍵係新指令名稱，值係 macro 展開內容。",
+      "description": "幫 Notebook 入面嘅 Markdown 加入數學支援。",
+      "displayName": "Markdown 數學"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "out/extension.js": {
+      "Unable to find a {0} installation on your system. Try installing it, or providing an absolute path to the browser in the \"runtimeExecutable\" in your launch.json.": "喺系統搵唔到已安裝嘅 {0}。請嘗試安裝，或者喺 launch.json 嘅 \"runtimeExecutable\" 提供瀏覽器嘅絕對路徑。",
+      "Unable to find {0} version {1}. Available auto-discovered versions are: {2}. You can set the \"runtimeExecutable\" in your launch.json to one of these, or provide an absolute path to the browser executable.": "搵唔到 {0} {1} 版。自動偵測到可用嘅版本有：{2}。可以將 launch.json 入面嘅 \"runtimeExecutable\" 設為其中一個版本，或者提供瀏覽器可執行檔嘅絕對路徑。"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅紅色主題",
+      "displayName": "紅色主題",
+      "themeLabel": "紅色"
+    }
+  },
+  "version": "1.0.0"
+}

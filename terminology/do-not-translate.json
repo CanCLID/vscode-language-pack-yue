@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "categoryPolicies": {
+    "acronym": {
+      "entryIds": [
+        "acronym-json"
+      ],
+      "mode": "inventory-entries"
+    },
+    "code": {
+      "mode": "phase2-authoritative",
+      "phase2Mapping": "protected-code-span"
+    },
+    "command": {
+      "entryIds": [
+        "command-npm-run"
+      ],
+      "mode": "inventory-entries"
+    },
+    "familiar-token": {
+      "entryIds": [
+        "familiar-git"
+      ],
+      "mode": "inventory-entries"
+    },
+    "keybinding": {
+      "mode": "phase2-authoritative",
+      "phase2Mapping": "protected-keybinding"
+    },
+    "placeholder": {
+      "mode": "phase2-authoritative",
+      "phase2Mapping": "protected-placeholder"
+    },
+    "product-name": {
+      "mode": "phase2-authoritative",
+      "phase2Mapping": "protected-product-name"
+    },
+    "protocol": {
+      "entryIds": [
+        "protocol-ssh"
+      ],
+      "mode": "inventory-entries"
+    },
+    "url": {
+      "mode": "phase2-authoritative",
+      "phase2Mapping": "protected-url"
+    }
+  },
+  "contractVersion": "1.0.0",
+  "entries": [
+    {
+      "category": "command",
+      "contexts": [
+        "npm run {0}"
+      ],
+      "dntId": "command-npm-run",
+      "evidenceRefs": [
+        "microsoft-hk-coverage"
+      ],
+      "exactForm": "npm run {0}",
+      "exceptions": [],
+      "inventoryRefs": [
+        {
+          "sourceFingerprint": "sha256:01280584720815cde96ed5f39dd50cee0879428e49b16e40434fa6ace06d1f9b",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/sessions/contrib/chat/browser/runScriptAction\",\n  \"npmTaskCommandPreview\"\n]"
+        }
+      ],
+      "match": {
+        "boundary": "exact-source",
+        "caseSensitive": false
+      },
+      "rationale": "Keep the executable command and placeholder byte-exact.",
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      }
+    },
+    {
+      "category": "protocol",
+      "contexts": [
+        "SSH Key Passphrase"
+      ],
+      "dntId": "protocol-ssh",
+      "evidenceRefs": [
+        "microsoft-hk-coverage"
+      ],
+      "exactForm": "SSH",
+      "exceptions": [],
+      "inventoryRefs": [
+        {
+          "sourceFingerprint": "sha256:7bf83fe8352b438d4a299535f4854c6b0264761a23905e05384a891550456749",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/sshRemoteAgentHostService\",\n  \"sshKeyPassphraseName\"\n]"
+        }
+      ],
+      "match": {
+        "boundary": "ascii-boundary",
+        "caseSensitive": true
+      },
+      "rationale": "SSH is the protocol name used by developers.",
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      }
+    },
+    {
+      "category": "acronym",
+      "contexts": [
+        "Controls the enterprise-managed OTLP wire protocol (protobuf vs JSON) for Copilot OpenTelemetry export."
+      ],
+      "dntId": "acronym-json",
+      "evidenceRefs": [
+        "microsoft-hk-coverage"
+      ],
+      "exactForm": "JSON",
+      "exceptions": [],
+      "inventoryRefs": [
+        {
+          "sourceFingerprint": "sha256:c7e529a2968f35ff8cb913f93fa68a83cfddb75f8c8fa026fd550ce82b365b98",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/common/agentHostStarter.config.contribution\",\n  \"chat.agentHost.otel.otlpProtocol.policy\"\n]"
+        }
+      ],
+      "match": {
+        "boundary": "ascii-boundary",
+        "caseSensitive": true
+      },
+      "rationale": "JSON is a familiar technical acronym.",
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      }
+    },
+    {
+      "category": "familiar-token",
+      "contexts": [
+        "Create a Git worktree for isolation"
+      ],
+      "dntId": "familiar-git",
+      "evidenceRefs": [
+        "microsoft-hk-coverage"
+      ],
+      "exactForm": "Git",
+      "exceptions": [],
+      "inventoryRefs": [
+        {
+          "sourceFingerprint": "sha256:16e4ea94dfed6a8d07c52d342ced6f1861b93a0730c9cae240d855cd23c7142c",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/copilot/copilotAgent\",\n  \"agentHost.sessionConfig.isolation.worktreeDescription\"\n]"
+        }
+      ],
+      "match": {
+        "boundary": "ascii-boundary",
+        "caseSensitive": true
+      },
+      "rationale": "Git is the familiar source-control product/token name.",
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": "2026-07-21",
+            "reviewerId": null,
+            "state": "approved"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      }
+    }
+  ],
+  "phase2Authority": {
+    "module": "scripts/lib/protected-content.mjs",
+    "extractor": "extractProtectedContent",
+    "weakeningAllowed": false
+  },
+  "purpose": "Reviewed additions to, never replacements for, Phase 2 protected-content extraction."
+}

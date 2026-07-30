@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Monokai 佈景主題",
+      "displayName": "Monokai 佈景主題",
+      "themeLabel": "Monokai"
+    }
+  },
+  "version": "1.0.0"
+}

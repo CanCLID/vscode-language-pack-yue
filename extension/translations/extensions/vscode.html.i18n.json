@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 HTML 檔案提供語法醒目提示、括號配對 & 程式碼片段。",
+      "displayName": "HTML 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

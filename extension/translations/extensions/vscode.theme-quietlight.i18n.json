@@ -1,0 +1,10 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "Visual Studio Code 嘅 Quiet Light 主題",
+      "displayName": "Quiet Light 主題",
+      "themeLabel": "Quiet Light"
+    }
+  },
+  "version": "1.0.0"
+}

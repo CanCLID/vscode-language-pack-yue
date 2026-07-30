@@ -1,0 +1,17 @@
+{
+  "contents": {
+    "dist/main.js": {
+      "Auto detecting gulp for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "自動偵測資料夾 {0} 嘅 gulp 失敗，錯誤：{1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown",
+      "Go to output": "前往輸出",
+      "Problem finding gulp tasks. See the output for more information.": "搵 gulp 工作嗰陣有問題。更多資訊請睇輸出。"
+    },
+    "package.nls.json": {
+      "config.gulp.autoDetect": "控制係咪啟用 Gulp 工作偵測。Gulp 工作偵測可能會執行任何已開啟工作區入面嘅檔案。",
+      "description": "為 VSCode 加入 Gulp 功能嘅擴充功能。",
+      "displayName": "VSCode 嘅 Gulp 支援",
+      "gulp.taskDefinition.file.description": "提供工作嘅 Gulp 檔案。可以省略。",
+      "gulp.taskDefinition.type.description": "要自訂嘅 Gulp 工作。"
+    }
+  },
+  "version": "1.0.0"
+}

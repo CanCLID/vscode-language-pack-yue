@@ -1,0 +1,48 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Commit Changes": "Commit 改動",
+      "Copy Anyway": "照樣複製",
+      "Copy vscode.dev Link": "複製 vscode.dev 連結",
+      "Could not determine the current branch.": "判斷唔到而家嘅分支。",
+      "Could not find a GitHub remote for this repository.": "搵唔到呢個儲存庫嘅 GitHub 遠端。",
+      "Could not find a git repository for the session worktree.": "搵唔到 session worktree 嘅 Git 儲存庫。",
+      "Could not parse GitHub remote URL.": "分析唔到 GitHub 遠端 URL。",
+      "Creating first commit": "建立緊第一個 commit",
+      "Failed to publish branch: {0}": "發佈分支失敗：{0}",
+      "No GitHub remotes found that contain this commit.": "搵唔到包含呢個 commit 嘅 GitHub 遠端。",
+      "Open on GitHub": "喺 GitHub 開啟",
+      "Pick a folder to publish to GitHub": "揀要發佈去 GitHub 嘅資料夾",
+      "Publish Branch & Copy Link": "發佈分支並複製連結(&C)",
+      "Publishing branch to {0}...": "發佈緊分支去 {0}……",
+      "Publishing to a private GitHub repository": "發佈去私人 GitHub 儲存庫",
+      "Publishing to a public GitHub repository": "發佈去公開 GitHub 儲存庫",
+      "Pull Changes & Copy Link": "Pull 改動並複製連結(&C)",
+      "Push Commits & Copy Link": "Push 並 並複製連結(&C)",
+      "Select which files should be included in the repository.": "揀儲存庫要包括邊啲檔案。",
+      "Successfully published the \"{0}\" repository to GitHub.": "成功發佈咗「{0}」儲存庫去 GitHub。",
+      "The current branch has unpublished commits. Would you like to push your commits before copying a link?": "而家嘅分支有未發佈嘅 commit。複製連結之前要唔要先 push commit？",
+      "The current branch is not published to the remote. Would you like to publish your branch before copying a link?": "而家嘅分支未發佈去遠端。複製連結之前要唔要先發佈分支？",
+      "The current branch is not up to date. Would you like to pull before copying a link?": "而家嘅分支唔係最新。複製連結前要唔要 pull？",
+      "The current file has uncommitted changes. Please commit your changes before copying a link.": "而家個檔案有未 commit 改動。請先 commit 改動再複製連結。",
+      "Uploading files": "上載緊檔案"
+    },
+    "package.nls.json": {
+      "command.copyVscodeDevLink": "複製 vscode.dev 連結",
+      "command.createPullRequest": "建立 PR",
+      "command.openOnGitHub": "喺 GitHub 開啟",
+      "command.openOnVscodeDev": "喺 vscode.dev 開啟",
+      "command.openPullRequest": "開啟 PR",
+      "command.publish": "發佈去 GitHub",
+      "config.branchProtection": "控制係咪查詢 GitHub 儲存庫規則",
+      "config.gitAuthentication": "控制 VS Code 入面嘅 Git 指令係咪啟用自動 GitHub 驗證。",
+      "config.gitProtocol": "控制 clone GitHub repo 使用邊種通訊協定",
+      "config.showAvatar": "控制各種 hover（例如 Git 追溯、Timeline、Source Control Graph 等）係咪顯示 commit 作者嘅 GitHub 頭像。",
+      "description": "VS Code 嘅 GitHub 功能",
+      "displayName": "GitHub",
+      "welcome.publishFolder": "你可以將呢個資料夾直接發佈去 GitHub 儲存庫。發佈後就可以用由 Git 同 GitHub 提供嘅源碼控制功能。\n[$(github) 發佈去 GitHub](command:github.publish)",
+      "welcome.publishWorkspaceFolder": "你可以將工作區資料夾直接發佈去 GitHub 儲存庫。發佈後就可以用由 Git 同 GitHub 提供嘅源碼控制功能。\n[$(github) 發佈去 GitHub](command:github.publish)"
+    }
+  },
+  "version": "1.0.0"
+}

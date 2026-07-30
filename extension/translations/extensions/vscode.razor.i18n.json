@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 Razor 檔案提供語法醒目提示、括號配對同摺埋。",
+      "displayName": "Razor 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

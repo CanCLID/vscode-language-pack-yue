@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為 Groovy 檔案提供程式碼片段、語法醒目提示同括號配對。",
+      "displayName": "Groovy 語言基本功能"
+    }
+  },
+  "version": "1.0.0"
+}

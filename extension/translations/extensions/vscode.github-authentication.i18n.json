@@ -1,0 +1,37 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "A reload is required for the fetch setting change to take effect.": "要重新載入，擷取設定嘅改動先會生效。",
+      "Continue to GitHub": "繼續前往 GitHub",
+      "Continue to GitHub to create a Personal Access Token (PAT)": "繼續前往 GitHub 建立個人存取權杖 (PAT)",
+      "Copy & Continue to Browser": "複製並去瀏覽器繼續(&C)",
+      "GitHub Authentication - Reload required": "GitHub 驗證——重新載入先會生效",
+      "GitHub Enterprise Server URI is not a valid URI: {0}": "GitHub 企業伺服器 URI 唔係有效 URI：{0}",
+      "Having trouble logging in? Would you like to try a different way? ({0})": "登入有問題？要唔要試另一個方法？（{0}）",
+      "No": "唔要",
+      "Open [{0}]({0}) in a new tab and paste your one-time code: {1}/The [{0}]({0}) will be a url and the {1} will be a code, e.g. 123-456{Locked=\"[{0}]({0})\"}": "喺新分頁開啟 [{0}]({0})，再貼上你嘅一次性代碼：{1}",
+      "Reload Window": "重新載入視窗",
+      "Sign in failed: {0}": "登入失敗：{0}",
+      "Sign out failed: {0}": "登出失敗：{0}",
+      "Signing in to {0}.../The {0} will be a url, e.g. github.com": "登入緊 {0}……",
+      "To finish authenticating, navigate to GitHub and paste in the above one-time code.": "要完成驗證，去 GitHub，再貼上上面嘅一次性代碼。",
+      "To finish authenticating, navigate to GitHub to create a PAT then paste the PAT into the input box.": "要完成驗證，去 GitHub 建立 PAT，再將 PAT 貼入輸入框。",
+      "Yes": "要",
+      "You have not yet finished authorizing this extension to use GitHub. Would you like to try a different way? ({0})": "你仲未授權呢個擴充功能使用 GitHub。要唔要試另一個方法？（{0}）",
+      "Your Code: {0}/The {0} will be a code, e.g. 123-456": "你嘅代碼：{0}",
+      "device code": "裝置代碼",
+      "local server": "本機伺服器",
+      "personal access token": "個人存取權杖",
+      "url handler": "URL 處理程式"
+    },
+    "package.nls.json": {
+      "config.github-authentication.preferDeviceCodeFlow.description": "設為 true 時，驗證會優先使用裝置代碼流程，而唔係其他可用流程。呢個設定適合 WSL 等本機伺服器或 URL handler 流程未必正常運作嘅環境。",
+      "config.github-authentication.useElectronFetch.description": "設為 true 時，HTTP request 會用 Electron 內置嘅 fetch function；設為 false 時，就用 Node.js 全域 fetch function。呢個設定只適用於 Electron 環境。**留意：**要重新啟動應用程式，呢項設定先會生效。",
+      "config.github-enterprise.title": "GHE.com 同 GitHub 企業伺服器驗證(&A)",
+      "config.github-enterprise.uri.description": "你嘅 GHE.com 或 GitHub Enterprise Server 執行個體 URI。\n\n例子：\n* GHE.com：`https://octocat.ghe.com`\n* GitHub Enterprise Server：`https://github.octocat.com`\n\n> **留意：**呢度_唔好_設為 GitHub.com URI。如果你嘅帳戶喺 GitHub.com，或者係 GitHub Enterprise Managed User，就唔使額外設定，直接登入 GitHub 就得。",
+      "description": "GitHub 驗證提供者",
+      "displayName": "GitHub 驗證"
+    }
+  },
+  "version": "1.0.0"
+}

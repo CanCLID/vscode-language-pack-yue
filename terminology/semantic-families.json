@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "families": [
+    {
+      "comparisonMode": "term",
+      "definition": "Feature availability actions and states.",
+      "exceptions": [
+        {
+          "rationale": "A physical-style toggle may read more naturally as 開／關 after per-string review.",
+          "reasonCode": "naturalness",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.enableSourceMapStepping.label\"\n]"
+        }
+      ],
+      "familyId": "enable-disable",
+      "knownNaturalVariants": [
+        "開返／關返 for controls where everyday speech is clearer"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:9ef9979a1dcc839d41b711f541c75ddbe06bb558c3b37f40dfad6aa244eb5afd",
+          "role": "enable",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.enableSourceMapStepping.label\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:5a8fc384a0ee305a33db740280931f7ccdaa2b1524a77a2087e7058d2c8ec1dd",
+          "role": "disable",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.disableSourceMapStepping.label\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "enable",
+        "disable"
+      ],
+      "targetPattern": "啟用／停用 when the feature sense matches"
+    },
+    {
+      "comparisonMode": "term",
+      "definition": "Visibility actions for UI content.",
+      "exceptions": [
+        {
+          "rationale": "Show meaning demonstrate is outside the visibility pattern.",
+          "reasonCode": "ambiguous-sense",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"node.showAsyncStacks.description\"\n]"
+        }
+      ],
+      "familyId": "show-hide",
+      "knownNaturalVariants": [
+        "睇到／收埋 in explanatory prose"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:4b9a38d73ece66510785bc32eaa70a38dff37322e390893cdb35e98e4c4889ea",
+          "role": "show",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"node.showAsyncStacks.description\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:fec3697cce3bc527a93e097e5322ccf61f8de918d89ae3f8155b76e54583ecb8",
+          "role": "hide",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/editor/contrib/codeAction/browser/codeActionController\",\n  \"hideMoreActions\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "show",
+        "hide"
+      ],
+      "targetPattern": "顯示／隱藏"
+    },
+    {
+      "comparisonMode": "syntax",
+      "definition": "Opening and closing UI containers or resources.",
+      "exceptions": [
+        {
+          "rationale": "Closing a dialog can use the concise 閂咗呢個對話框 pattern.",
+          "reasonCode": "naturalness",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"vscode\",\n  \"vs/base/browser/ui/dialog/dialog\",\n  \"dialogClose\"\n]"
+        }
+      ],
+      "familyId": "open-close",
+      "knownNaturalVariants": [
+        "開／閂"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:112e9673755607366ee3d77678fe44891c6fcefd135be89210d318d5e83884c6",
+          "role": "open",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.networkOpenBody.label\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:104df20780d831f9696caed445be602bc0f10b5183f265c738ce13b7212a05db",
+          "role": "close",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/base/browser/ui/dialog/dialog\",\n  \"dialogClose\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "open",
+        "close"
+      ],
+      "targetPattern": "開啟／關閉, shortened to 開／閂 where the object makes the action clear"
+    },
+    {
+      "comparisonMode": "term",
+      "definition": "Software and extension lifecycle actions.",
+      "exceptions": [
+        {
+          "rationale": "Installing an update is not the semantic inverse of uninstalling a package.",
+          "reasonCode": "ambiguous-sense",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/menubar/electron-main/menubar\",\n  \"miInstallUpdate\"\n]"
+        }
+      ],
+      "familyId": "install-uninstall",
+      "knownNaturalVariants": [
+        "移除 for a non-package removal sense"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:435f6fcfa7df10fe8dc3159c12ae1069d25d888cc33934cfb3dbf25055158fbe",
+          "role": "install",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/menubar/electron-main/menubar\",\n  \"miInstallUpdate\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:e991ee8eb354b7060682ca8ca91574b5112b01d06732c0bc5b1616e49404fa9d",
+          "role": "uninstall",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/workbench/contrib/chat/browser/agentPluginActions\",\n  \"uninstall\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "install",
+        "uninstall"
+      ],
+      "targetPattern": "安裝／解除安裝"
+    },
+    {
+      "comparisonMode": "term",
+      "definition": "Collection addition, reversible removal, and destructive deletion.",
+      "exceptions": [
+        {
+          "rationale": "Remove must not be forced to 刪除 when the operation is non-destructive.",
+          "reasonCode": "naturalness",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.callersRemove.label\"\n]"
+        }
+      ],
+      "familyId": "add-remove-delete",
+      "knownNaturalVariants": [
+        "加／拎走 in concise everyday prompts"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:a16a00a677bbc93f1374cce88a4660dc4941cf5eefd32d842d88908601569e6e",
+          "role": "add",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"add.xhr.breakpoint\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:220f2e5e3b8dc4d4f4a0665d5b1f274f6dd00c8908dc178fa5b62d7a62bee35f",
+          "role": "remove",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"commands.callersRemove.label\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:fec0a6f23b66757ba22efb107832560ca8dfbec120a9679d98f2271515f228a9",
+          "role": "delete",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/editor/contrib/linesOperations/browser/linesOperations\",\n  \"lines.delete\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "add",
+        "remove",
+        "delete"
+      ],
+      "targetPattern": "新增／移除／刪除 with consequence kept explicit"
+    },
+    {
+      "comparisonMode": "syntax",
+      "definition": "Process, task, debug, and session lifecycle actions.",
+      "exceptions": [
+        {
+          "rationale": "Start Debugging and Stop on Entry contains two lifecycle roles and requires sentence-level review.",
+          "reasonCode": "ambiguous-sense",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"start.with.stop.on.entry\"\n]"
+        }
+      ],
+      "familyId": "start-stop",
+      "knownNaturalVariants": [
+        "開／停"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:5ec93306eea31d215fef12d7c6ee4f97dc88e48085b51ab715efa694ccfd8c0f",
+          "role": "start",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"start.with.stop.on.entry\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:6335010e84194152ad3e4e3186b62261fcc30a9019b9ecd23ad1563389af4d90",
+          "role": "stop",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"profile.stop\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "start",
+        "stop"
+      ],
+      "targetPattern": "開始／停止 with the affected process named"
+    },
+    {
+      "comparisonMode": "syntax",
+      "definition": "Persistence and intentional abandonment of changes.",
+      "exceptions": [
+        {
+          "rationale": "A confirmation may use 唔要呢啲變更 when it states the consequence more clearly.",
+          "reasonCode": "clearer-everyday-speech",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/agentHostDiscardChangesOperationHandler\",\n  \"agentHost.changeset.discardChanges.cancelled\"\n]"
+        }
+      ],
+      "familyId": "save-discard",
+      "knownNaturalVariants": [
+        "唔儲存／掉咗變更"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:3b2b656d647494675247d33b9fd8cc58e68bedc22b0dbb11c77a9470d61b3f6b",
+          "role": "save",
+          "sourceId": "[\n  \"ms-vscode.js-debug\",\n  \"package.nls.json\",\n  \"getDiagnosticLogs.label\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:db0bf8621713c662c27fc47681a4933aaee9d71c1e29fe6e48f2098d6a6b69d9",
+          "role": "discard",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/agentHostDiscardChangesOperationHandler\",\n  \"agentHost.changeset.discardChanges.cancelled\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "save",
+        "discard"
+      ],
+      "targetPattern": "儲存／放棄 with loss consequence retained"
+    },
+    {
+      "comparisonMode": "severity",
+      "definition": "Diagnostic severity labels and messages.",
+      "exceptions": [
+        {
+          "rationale": "Information in ordinary prose is not necessarily the info diagnostic severity.",
+          "reasonCode": "ambiguous-sense",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"vscode\",\n  \"vs/editor/common/config/editorOptions\",\n  \"inlineSuggest.emptyResponseInformation\"\n]"
+        }
+      ],
+      "familyId": "error-warning-info",
+      "knownNaturalVariants": [
+        "提示 for non-diagnostic information"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:2f2093525fd7f0958e747efcff6a36be3ef16594f19e612ceb26e56af8c834ae",
+          "role": "error",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/base/browser/ui/dialog/dialog\",\n  \"dialogErrorMessage\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:ed60eaf0f9b673dcb5c1445c1a469e97f1c3a5b2542f0f5f90b53f09adba0722",
+          "role": "warning",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/base/browser/ui/dialog/dialog\",\n  \"dialogWarningMessage\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:6e72dbe6181a199b30ac53efa663099b4900adc611ca59dd1d53f4b02def8844",
+          "role": "info",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/editor/common/config/editorOptions\",\n  \"inlineSuggest.emptyResponseInformation\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "error",
+        "warning",
+        "info"
+      ],
+      "targetPattern": "錯誤／警告／資料 without flattening severity"
+    },
+    {
+      "comparisonMode": "syntax",
+      "definition": "Account session entry and exit actions.",
+      "exceptions": [
+        {
+          "rationale": "A prompt may use 登入返 when restoring a session is explicit.",
+          "reasonCode": "naturalness",
+          "review": {
+            "contractVersion": "1.0.0",
+            "roles": {
+              "developer-domain": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              },
+              "native-hk-cantonese": {
+                "reviewedAt": null,
+                "reviewerId": null,
+                "state": "pending"
+              }
+            },
+            "updatedAt": "2026-07-21"
+          },
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/agentHostCommitOperationHandler\",\n  \"agentHost.changeset.commit.authRequired\"\n]"
+        }
+      ],
+      "familyId": "sign-in-out",
+      "knownNaturalVariants": [
+        "登入返"
+      ],
+      "members": [
+        {
+          "sourceFingerprint": "sha256:c47b83af196f3237366d16fbe555d646836d163d85ffa570cbbfa8ecf0c1e62d",
+          "role": "sign-in",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/platform/agentHost/node/agentHostCommitOperationHandler\",\n  \"agentHost.changeset.commit.authRequired\"\n]"
+        },
+        {
+          "sourceFingerprint": "sha256:86c0f4543e41a6ef63567348cc4a9a5a4e2daaefd993294b70e4aa4c4a7b9a63",
+          "role": "sign-out",
+          "sourceId": "[\n  \"vscode\",\n  \"vs/sessions/contrib/accountMenu/browser/account.contribution\",\n  \"agenticSignOutMessage\"\n]"
+        }
+      ],
+      "review": {
+        "contractVersion": "1.0.0",
+        "roles": {
+          "developer-domain": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          },
+          "native-hk-cantonese": {
+            "reviewedAt": null,
+            "reviewerId": null,
+            "state": "pending"
+          }
+        },
+        "updatedAt": "2026-07-21"
+      },
+      "roles": [
+        "sign-in",
+        "sign-out"
+      ],
+      "targetPattern": "登入／登出 with provider and account scope preserved"
+    }
+  ],
+  "purpose": "Explicit inventory-bound semantic families with local naturalness exceptions."
+}

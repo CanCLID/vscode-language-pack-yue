@@ -1,0 +1,25 @@
+{
+  "contents": {
+    "dist/extension.js": {
+      "Format uri ('{0}') must contain exactly one substitution placeholder.": "格式 URI（「{0}」）只可以有一個取代用預留位置。",
+      "Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.": "格式 URI（「{0}」）用咗取代預留位置，但模式冇擷取到任何內容。"
+    },
+    "package.nls.json": {
+      "debug.server.ready.action.debugWithChrome.description": "用「Debugger for Chrome」開始偵錯。",
+      "debug.server.ready.action.description": "伺服器準備好嗰陣點樣處理 URI。",
+      "debug.server.ready.action.openExternally.description": "用預設應用程式喺外部開啟 URI。",
+      "debug.server.ready.action.openIntegratedBrowser.description": "喺整合式瀏覽器開啟 URI。",
+      "debug.server.ready.action.startDebugging.description": "執行另一個啟動設定。",
+      "debug.server.ready.debugConfig.description": "要執行嘅 debug 設定。",
+      "debug.server.ready.debugConfigName.description": "要執行嘅啟動設定名稱。",
+      "debug.server.ready.killOnServerStop.description": "父工作階段停止嗰陣，停止子工作階段。",
+      "debug.server.ready.pattern.description": "如果除錯 console 出現呢個模式，就代表伺服器準備好。第一個擷取群組一定要包括 URI 或者埠號碼。",
+      "debug.server.ready.serverReadyAction.description": "偵錯緊嘅伺服器程式準備好嗰陣（即係向偵錯主控台傳送 'listening on port 3000' 或 'Now listening on: https://localhost:5001' 形式嘅輸出），對 URI 執行動作。",
+      "debug.server.ready.uriFormat.description": "由埠號碼建構 URI 嗰陣使用嘅格式字串。第一個「%s」會用埠號碼取代。",
+      "debug.server.ready.webRoot.description": "傳畀「Debugger for Chrome」debug 設定嘅值。",
+      "description": "除錯緊嘅伺服器準備好嗰陣，喺瀏覽器開啟 URI。",
+      "displayName": "伺服器準備好動作"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "contents": {
+    "package.nls.json": {
+      "description": "為分頁搜尋結果提供語法醒目提示同語言功能。",
+      "displayName": "搜尋結果"
+    }
+  },
+  "version": "1.0.0"
+}

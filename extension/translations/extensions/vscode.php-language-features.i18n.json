@@ -1,0 +1,24 @@
+{
+  "contents": {
+    "dist/phpMain.js": {
+      "Cannot validate since a PHP installation could not be found. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "搵唔到 PHP 安裝，所以驗證唔到。請喺「php.validate.executablePath」指定 PHP executable。",
+      "Cannot validate since no PHP executable is set. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "未設定 PHP executable，所以驗證唔到。請喺「php.validate.executablePath」指定 PHP executable。",
+      "Cannot validate since {0} is not a valid php executable. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "{0} 唔係有效嘅 php executable，所以驗證唔到。請喺「php.validate.executablePath」指定 PHP executable。",
+      "Failed to run php using path: {0}. Reason is unknown.": "用路徑 {0} 執行 php 失敗，原因不明。",
+      "Open Settings": "開啟設定"
+    },
+    "package.nls.json": {
+      "command.untrustValidationExecutable": "唔容許 PHP 驗證 executable（定義為工作區設定）",
+      "commands.categroy.php": "PHP",
+      "configuration.suggest.basic": "控制係咪啟用內置 PHP 語言建議。支援內容包括 PHP global 同變量建議。",
+      "configuration.title": "PHP",
+      "configuration.validate.enable": "啟用／停用內置 PHP 驗證。",
+      "configuration.validate.executablePath": "指向 PHP executable。",
+      "configuration.validate.run": "Linter 係儲存嗰陣定輸入時執行。",
+      "description": "為 PHP 檔案提供豐富嘅語言支援。",
+      "displayName": "PHP 語言功能",
+      "workspaceTrust": "當 `php.validate.executablePath` 設定會載入工作區入面嘅 PHP 版本時，extension 需要信任工作區先可以使用。"
+    }
+  },
+  "version": "1.0.0"
+}
